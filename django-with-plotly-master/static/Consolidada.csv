@@ -1,0 +1,511 @@
+;Código da Área;Descrição da Área;Login;Colaborador;Id;mês 1;mês 2;mês 3;mês 4;mês 5;mês 6;mês 7;mês 8;mês 9;mês 10;Cod.Unico;Cargo
+0;1;Presidência - Partage ADM;mupriscila;Priscila Uchoa de Matos;;;;;;;;;;;;C1::mupriscila;Presidência
+1;1;Presidência - Partage ADM;ricardo;Ricardo Baptista;;;;;;;;;;;;C1::ricardo;Presidência
+2;1.01.07;Diretoria de Gestão - Partage ADM;pcrodrigo;Rodrigo Souza Costa Pereira;;80.84;80.44;99.34;97.42;94.54;88.55;88.22;104.24;99.92;95.25;C1.01.07::pcrodrigo;Diretoria
+3;1.04.01;Gerência Administrativa Financeira - Controladoria Partage ADM;njosiane;Josiane Nardelly de Sousa;;52.69;52.39;51.72;49.43;71.42;46.17;46.15;100.22;80.23;78.54;C1.04.01::njosiane;Gerência
+4;1.04.01;Gerência Administrativa Financeira - Controladoria Partage ADM;OP001ccelso;Open Position ccelso-Celso Couto;;;;;;;;;;;;C1.04.01::OP001ccelso;Gerência
+5;1.04.01.03;Analista Recebíveis - Controladoria Partage ADM;sdaiane;Daiane Teófilo da Silva;;56.0;56.0;56.0;56.0;79.95;56.0;78.68;101.98;102.15;102.24;C1.04.01.03::sdaiane;Analista
+6;1.01.07.02;Analista de Controladoria - Partage ADM;rodrigo.andrade;Rodrigo dos Santos Andrade;;77.61;77.71;77.48;75.81;75.13;98.11;99.44;100.76;77.14;58.86;C1.01.07.02::rodrigo.andrade;Analista
+7;1.01.07.01;Analista de Controladoria - Partage ADM;lrichard;Richard Ruan Amaral Lima;;40.0;58.67;58.0;77.33;77.33;95.81;85.33;65.33;65.33;65.33;C1.01.07.01::lrichard;Analista
+8;1.01.08;Superintendência_Regional - Gestão_S|SE (PSBE|PSRG|PSSG|PSJS);gmarco;Marco Aurélio Garzin;;;;;;;;;;;;C1.01.08::gmarco;Superintendência_Regional
+9;1.01.09;Superintendência_Regional - Gestão_NE (PNSN|PSMO|PSAR|PSCG);gfernanda;Fernanda Gabriel;;97.88;93.75;115.15;87.54;82.73;80.86;82.55;79.35;75.61;72.72;C1.01.09::gfernanda;Superintendência_Regional
+10;1.03.10.35;Superintendência_Regional - Gestão_N|CO (PSPA|PSMA|S3A|PSPC);rmauricio;Mauricio Ramos ;;74.47;71.73;85.4;79.81;76.82;75.36;73.14;72.71;68.79;65.68;C1.03.10.35::rmauricio;Superintendência_Regional
+11;1.01;Diretoria de Marketing - Partage ADM;sqbruno;Bruno Bueno Quirino de Souza;;;;;;;;;;;;C1.01::sqbruno;Diretoria
+12;1.01;Diretoria de Marketing - Partage ADM;npupo;José Pupo Neto;;93.78;86.36;91.36;90.89;90.29;83.67;84.09;83.85;83.74;46.0;C1.01::npupo;Diretoria
+13;1.01;Diretoria de Marketing - Partage ADM;mjulio;Julio Cesar Rocha Macedo;;;;;;;;;;;;C1.01::mjulio;Diretoria
+14;1.01.04;Gerência de Trade Marketing - Partage ADM;canaguiomar;Ana Guiomar Rodrigues Cavalcanti;;96.87;94.06;115.71;110.34;90.92;84.99;85.05;84.59;84.95;56.07;C1.01.04::canaguiomar;Gerência
+15;1.01.04;Gerência de Trade Marketing - Partage ADM;smarcia;Marcia Lencioni Sandim;;;;;;;;;;;;C1.01.04::smarcia;Gerência
+16;1.01.04;Gerência de Trade Marketing - Partage ADM;ssarah;Sarah Assis dos Santos;;;;;;;;;;;;C1.01.04::ssarah;Gerência
+17;1.01.04.02;Coordenação  Regional NE de Marketing - Dafne -  PSCG/PSMO/PSAR/PNSN;ldafne;Dafne de Mello Lopes;;99.41;97.61;94.58;94.31;93.89;115.0;119.05;116.99;116.73;113.86;C1.01.04.02::ldafne;Coordenação
+18;1.01.04.03;Coordenação Regional S/SE de Marketing - Janaina - PSRG/PSSG/PSBE/PSJS;mjanaina;Janaina Montanhini;;97.64;97.44;96.63;91.3;87.04;69.13;88.32;91.24;91.63;90.66;C1.01.04.03::mjanaina;Coordenação
+19;1.01.04.04;Coordenação  Regional N/CO de Marketing - Débora - PSMA/PSPA/PSPC/S3A;debora.viana;Débora Viana;;92.58;84.55;45.33;45.17;86.63;88.57;89.68;88.16;88.16;66.16;C1.01.04.04::debora.viana;Coordenação
+20;1.03.06.03.01;Coordenação de Marketing - PSPA;OP001qheli;Open Position qheli-Heli Queiroz;;;;;;;;;;;;C1.03.06.03.01::OP001qheli;Coordenação
+21;1.03.06.03.01.02;Comunicação - PSPA;faniribeiro7;Analista Comunicação - PSP - vago;;;;;;;;;;;;C1.03.06.03.01.02::faniribeiro7;Sem cargo
+22;1.03.06.03.01.02;Comunicação - PSPA;channah;Hannah de Azevedo Cordovil;;;;;;;;;;;;C1.03.06.03.01.02::channah;Sem cargo
+23;1.03.06.03.01.02;Comunicação - PSPA;bwarmeson;Warmeson Sousa Baia;;;;;;;;;;;;C1.03.06.03.01.02::bwarmeson;Sem cargo
+24;1.03.06.03.01.01;Comunicação - PSPA;qluciana;Luciana Rodrigues Queiroz;;;;;;;;;;;;C1.03.06.03.01.01::qluciana;Sem cargo
+25;1.03.06.03.01.01;Comunicação - PSPA;mvinicius;Vinicius Maciel;;;;;;;;;;;;C1.03.06.03.01.01::mvinicius;Sem cargo
+26;1.03.10.3;Gerência de Marketing - S3A;lpatrick;Patrick Lima;;;;;;;;;;;;C1.03.10.3::lpatrick;Gerência
+27;1.03.09.13;Gerência de Marketing - S3A;lpatrick;Patrick Lima;;72.67;70.95;70.85;88.14;87.06;86.05;64.8;63.43;63.23;;C1.03.09.13::lpatrick;Gerência
+28;1.01.12;Gerência de Branding - Partage ADM;OP001cotavio;Open Position cotavio-Otavio Francisco de Carvalho;;;;;;;;;;;;C1.01.12::OP001cotavio;Gerência
+29;1.01.12;Gerência de Branding - Partage ADM;jwagner;Wagner de Freitas Firmo Junior;;112.96;105.71;85.36;85.36;85.83;85.13;86.81;88.02;87.88;45.5;C1.01.12::jwagner;Gerência
+30;1.01.10.3;Analista Marketing - Social Media - Partage ADM;rmariana;Mariana Isoldi Rezende;;116.1;116.23;116.91;117.68;119.23;118.94;121.03;123.19;123.16;104.0;C1.01.10.3::rmariana;Analista
+31;1.01.10.1;Marketing - CRM - Partage ADM;OP001landre;Open Position landre-André Mori Lara;;;;;;;;;;;;C1.01.10.1::OP001landre;Sem cargo
+32;1.01.10.1;Marketing - CRM - Partage ADM;nthiago;Thiago Nerath;;;;;;;;;;;;C1.01.10.1::nthiago;Sem cargo
+33;1.01.10;Analista Marketing - Design - Partage ADM;geduardo;Eduardo Jorge Xavier Silva Guimarães;;113.06;113.85;113.89;114.66;117.0;116.14;119.59;120.97;121.58;100.68;C1.01.10::geduardo;Analista
+34;1.01.06;Analista Branding - Partage ADM;garthur;Arthur Peliciolli Graziadio;;;;;;;;;;;;C1.01.06::garthur;Analista
+35;1.01.06;Analista Branding - Partage ADM;rkatyusia;Katyusia Meurer Rodrigues;;;;;;;;;;;;C1.01.06::rkatyusia;Analista
+36;1.01.06;Analista Branding - Partage ADM;apaula;Paula de Almeida Astolpho;;122.97;114.47;83.78;81.51;68.12;67.28;69.64;71.5;71.5;71.5;C1.01.06::apaula;Analista
+37;1.03.09.07;Designer  - Partage ADM;vago.cotavio;(VAGO) Otavio Francisco de Carvalho;;113.06;113.85;113.89;114.66;117.0;116.14;119.59;120.97;121.58;100.68;C1.03.09.07::vago.cotavio;Designer
+38;1.01.10.4;Gerência de Ativos Digitais - Partage ADM;vgabriela;Gabriela Moreira Vieira;;95.41;94.55;91.24;86.77;66.9;87.72;92.86;92.48;92.74;65.16;C1.01.10.4::vgabriela;Gerência
+39;1.01.10.2;Analista Ativos Digitais - Partage ADM;ckaio;Kaio Vitor Ramos da Silva Cunha;;91.0;91.0;88.79;84.81;65.0;96.41;103.54;104.0;104.0;103.33;C1.01.10.2::ckaio;Analista
+40;1.02;Diretoria de Operações - Partage ADM;pcrodrigo;Rodrigo Souza Costa Pereira;;44.31;41.79;65.43;64.37;65.29;58.38;57.28;59.44;59.48;59.49;C1.02::pcrodrigo;Diretoria
+41;1.02.02;Superintendência_Regional - Operações - Norte /Nordeste - PSMO/PNSN/PSAR/PSCG /PSMA/PSPA;antigo.ncassio;Cássio;;60.61;62.85;87.72;86.57;92.68;93.27;92.12;92.14;92.25;92.34;C1.02.02::antigo.ncassio;Superintendência_Regional
+42;1.02.02;Superintendência_Regional - Operações - Norte /Nordeste - PSMO/PNSN/PSAR/PSCG /PSMA/PSPA;ncassio;Cássio Nardocci;;;;;;;;;;;;C1.02.02::ncassio;Superintendência_Regional
+43;1.02.03;Gerência Nacional de Estacionamento - Partage ADM;fvandoir;Vandoir Fortuna;;45.88;68.83;67.91;90.96;67.07;89.67;89.83;89.68;89.83;90.11;C1.02.03::fvandoir;Gerência
+44;1.02.03.09;Coordenação Nacional de Estacionamento  - Partage ADM;sallan;Allan Carlos Freitas Silva;;103.23;103.66;101.83;101.27;100.82;100.85;100.93;100.45;100.23;100.04;C1.02.03.09::sallan;Coordenação
+45;1.06.06.05;Superintendência_Regional - Operações - PSRG / PSJS / PSBE / PSSG/ S3A / PSPC;antigo.cbleandro;Leandro Correia Botelho;;56.63;54.09;44.15;44.31;32.42;32.4;42.48;42.48;42.48;42.48;C1.06.06.05::antigo.cbleandro;Superintendência_Regional
+46;1.03.10.04;Gerência de Operações - PSMA;OP001orafael;Open Position orafael-Rafael Oliveira ;;;;;;;;;;;;C1.03.10.04::OP001orafael;Gerência
+47;1.03.10.04;Gerência de Operações - PSMA;orafael;Rafael Oliveira ;;;;;;;;;;;;C1.03.10.04::orafael;Gerência
+48;1.03.10.45;Superintendência_Regional - Operações_N|CO (PSPA|PSMA|S3A|PSPC);fricardo;Ricardo Alexandre Ferro;;;;;;;;;41.43;72.17;52.17;C1.03.10.45::fricardo;Superintendência_Regional
+49;1.02.02.01;Superintendência_Regional - Operações_NE (PNSN|PSMO|PSAR|PSCG);ncassio;Cássio Nardocci;;;;;;;;;38.28;90.63;91.5;C1.02.02.01::ncassio;Superintendência_Regional
+50;1.06.06.06;Superintendência_Regional - Operações_S|SE (PSBE|PSRG|PSSG|PSJS);cbleandro;Leandro Correia Botelho;;;;;;;;;38.03;88.52;67.6;C1.06.06.06::cbleandro;Superintendência_Regional
+51;1.03;Shoppings - Partage ADM;OP001vluiz;Open Position vluiz-LUIZ VAZ;;;;;;;;;;;;C1.03::OP001vluiz;Sem cargo
+52;1.03.01;Superintendência - PSSG;nmarcelo;Marcelo Ferreira do Nascimento;;53.64;51.36;52.32;63.62;57.59;59.85;66.19;64.67;65.71;59.53;C1.03.01::nmarcelo;Superintendência
+53;1.03.01;Superintendência - PSSG;pjacqueline;PERFIL GENÉRICO;;;;;;;;;;;;C1.03.01::pjacqueline;Superintendência
+54;1.03.01.02;Gerência de Operações - PSSG;shederaldo;Hederaldo Leo Amoras dos Santos;;42.29;40.6;40.14;37.23;39.59;37.28;34.31;34.26;35.9;36.9;C1.03.01.02::shederaldo;Gerência
+55;1.03.01.02.01.01;Ambiência/Qualidade - PSSG;vaqualidade;Analista de Qualidade - PSSG - vago;;;;;;;;;;;;C1.03.01.02.01.01::vaqualidade;Sem cargo
+56;1.03.01.02.01.01;Ambiência/Qualidade - PSSG;OP001racamila;Open Position racamila-Camila;;;;;;;;;;;;C1.03.01.02.01.01::OP001racamila;Sem cargo
+57;1.03.01.02.02;Coordenação de Segurança - PSSG;malex;Alex Ribeiro Magalhães;;62.22;60.1;59.63;59.42;59.17;58.48;58.63;58.86;58.52;58.79;C1.03.01.02.02::malex;Coordenação
+58;1.03.01.02.02;Coordenação de Segurança - PSSG;salexander;Alexander Andre Nascimento da Silva;;;;;;;;;;;;C1.03.01.02.02::salexander;Coordenação
+59;1.03.01.02.02;Coordenação de Segurança - PSSG;qrafael;Rafael do Carmo Queiroz;;;;;;;;;;;;C1.03.01.02.02::qrafael;Coordenação
+60;1.03.01.02.02;Coordenação de Segurança - PSSG;cvilwander;Vilwander Lobo de Carvalho;;;;;;;;;;;;C1.03.01.02.02::cvilwander;Coordenação
+61;1.03.01.02.03;Coordenação de Ambiência - PSSG;raline;Aline de Figueiredo Resende;;69.72;43.61;43.58;43.34;43.49;43.42;43.42;43.17;43.33;43.51;C1.03.01.02.03::raline;Coordenação
+62;1.03.01.02.03.03;Almoxarifado - PSSG;OP001caldineia;Open Position caldineia-Aldinéia;;;;;;;;;;;;C1.03.01.02.03.03::OP001caldineia;Sem cargo
+63;1.03.01.02.03.03;Almoxarifado - PSSG;OP001pguilherme;Open Position pguilherme-Guilherme de Almeida Passos;;;;;;;;;;;;C1.03.01.02.03.03::OP001pguilherme;Sem cargo
+64;1.03.01.02.03.01;Analista Ambiência/Qualidade - PSSG;ralan;Alan Rocha Ramos;;69.72;43.61;43.58;43.34;43.49;43.42;43.42;43.17;43.33;43.51;C1.03.01.02.03.01::ralan;Analista
+65;1.03.01.02.03.01;Analista Ambiência/Qualidade - PSSG;vagox;Estagiário de Operações- PSSG - vago;;;;;;;;;;;;C1.03.01.02.03.01::vagox;Analista
+66;1.03.01.02.03.01;Analista Ambiência/Qualidade - PSSG;lrenan;Renan Sena Lemos;;;;;;;;;;;;C1.03.01.02.03.01::lrenan;Analista
+67;1.03.01.02.03.02;Analista Operações - PSSG;voperacoes;Analista de Operações - PSSG - vago;;;;;;;;;;;;C1.03.01.02.03.02::voperacoes;Analista
+68;1.03.01.02.03.02;Analista Operações - PSSG;pguilherme;Guilherme de Almeida Passos;;;;;;;;;;;;C1.03.01.02.03.02::pguilherme;Analista
+69;1.03.01.02.03.02;Analista Operações - PSSG;OP001apriscila;Open Position apriscila-Priscila;;;;;;;;;;;;C1.03.01.02.03.02::OP001apriscila;Analista
+70;1.03.01.02.03.02;Analista Operações - PSSG;ssergio;Sérgio Junior Garcia da Silva;;63.75;72.81;75.29;75.59;75.91;75.93;75.79;75.89;75.95;73.73;C1.03.01.02.03.02::ssergio;Analista
+71;1.03.01.02.04;Coordenação de Manutenção VAGO - PSSG;saldair;Aldair Rodrigues dos Santos -Coordenador de Manutenção- PSSG VAGO;;47.85;56.35;64.88;65.19;65.77;65.69;65.64;66.14;66.17;66.07;C1.03.01.02.04::saldair;Coordenação
+72;1.03.01.01;Gerência Financeira - PSSG;rdaniela;Daniela de Freitas Rachid;;;;;;;;;;;;C1.03.01.01::rdaniela;Gerência
+73;1.03.01.01;Gerência Financeira - PSSG;pdanielle;Danielle Angelim Picanço;;;;;;;;;;;;C1.03.01.01::pdanielle;Gerência
+74;1.03.01.01;Gerência Financeira - PSSG;npenha;Penha Cecília do Nascimento Carinho;;;;;;;;;;;;C1.03.01.01::npenha;Gerência
+75;1.03.01.01.04;Coordenação Financeira - PSSG;ahenrique;Henrique Ferreira Lopes Cordeiro de Almeida;;;;;;;;;;;;C1.03.01.01.04::ahenrique;Coordenação
+76;1.03.01.03;Gerência de Marketing - PSSG;vgermkt;Gerente de Marketing - PSSG - vago;;;;;;;;;;;;C1.03.01.03::vgermkt;Gerência
+77;1.03.01.05;Gerência Financeiro - PSSG;pdanielle;Danielle Angelim Picanço;;15.32;34.18;34.66;34.02;15.79;44.92;27.24;34.63;33.43;31.61;C1.03.01.05::pdanielle;Gerência
+78;1.03.01.01.01.01;Analista Financeiro/Contas a Pagar - PSSG;fthiara;Thiara Freitas;;104.08;103.36;103.39;102.9;102.73;102.94;103.25;99.79;98.18;96.26;C1.03.01.01.01.01::fthiara;Analista
+79;1.03.01.04;Assistente Financeiro - PSSG;cmatheus;Matheus Couto Gomes;;60.0;60.0;60.0;60.0;60.0;60.0;60.0;60.0;60.0;0.0;C1.03.01.04::cmatheus;Assistente
+80;1.03.01.01.01.03;Coordenação de Finanças - PSSG;shiago;Hiago Silva;;24.68;24.65;24.58;24.55;24.53;24.55;24.6;24.63;57.15;57.2;C1.03.01.01.01.03::shiago;Coordenação
+81;1.03.01.01.02.01;Analista de  Auditoria - PSSG;ggabriella;Gabriella Crespo Gomes;;51.73;53.65;51.39;50.31;47.76;19.74;44.15;51.7;51.67;51.63;C1.03.01.01.02.01::ggabriella;Analista
+82;1.03.01.03.01;Gerência de Marketing - PSSG;proza;Coordenador de Marketing - PSSG - vago;;;;;;;;;;;;C1.03.01.03.01::proza;Gerência
+83;1.03.01.03.01;Gerência de Marketing - PSSG;cluciana;Luciana Ribeiro Monteiro Cabral;;91.1;86.39;85.88;82.19;62.7;62.13;62.09;61.69;34.26;35.31;C1.03.01.03.01::cluciana;Gerência
+84;1.03.01.03.01;Gerência de Marketing - PSSG;epietro;Pietro Erthal;;;;;;;;;;;;C1.03.01.03.01::epietro;Gerência
+85;1.03.01.03.01.02;Coordenação de Marketing- PSSG;rcaline;Aline do Couto Rodrigues;;;;;;;;;;;;C1.03.01.03.01.02::rcaline;Coordenação
+86;1.03.01.03.01.02;Coordenação de Marketing- PSSG;celizabeth;Elizabeth Maciel da Silva de Carvalho;;51.16;52.0;50.3;49.06;87.24;85.59;88.18;91.0;88.41;115.31;C1.03.01.03.01.02::celizabeth;Coordenação
+87;1.03.01.03.01.02;Coordenação de Marketing- PSSG;crobson;Robson Miranda Louback Carvalho;;;;;;;;;;;;C1.03.01.03.01.02::crobson;Coordenação
+88;1.03.01.03.01.01;Marketing - PSSG;rlorrana;Analista de Marketing - PSSG - vago;;;;;;;;;;;;C1.03.01.03.01.01::rlorrana;Sem cargo
+89;1.03.01.03.01.01;Marketing - PSSG;vamkt;Analista de Marketing - PSSG - vago;;;;;;;;;;;;C1.03.01.03.01.01::vamkt;Sem cargo
+90;1.03.01.03.01.01;Marketing - PSSG;lmanuella;Manuella Pinheiro Lima;;;;;;;;;;;;C1.03.01.03.01.01::lmanuella;Sem cargo
+91;1.03.01.03.01.01;Marketing - PSSG;OP001epietro;Open Position epietro-Pietro Erthal;;;;;;;;;;;;C1.03.01.03.01.01::OP001epietro;Sem cargo
+92;1.03.02;Superintendência - PSBE;frafael;Rafael Sena Ferreira;;100.41;98.43;111.09;99.94;87.99;76.38;78.0;98.09;107.62;105.8;C1.03.02::frafael;Superintendência
+93;1.03.02;Superintendência - PSBE;prodrigo;Rodrigo Souza Costa Pereira;;;;;;;;;;;;C1.03.02::prodrigo;Superintendência
+94;1.03.02.02;Gerência de Operações - PSBE;cgalileu;Galileu Rubens Campos;;45.13;44.79;79.86;79.84;80.51;65.48;68.9;69.12;86.07;86.92;C1.03.02.02::cgalileu;Gerência
+95;1.03.02.02.01;Coordenação de Ambiência - PSBE;vcoordenador;Coordenador de Ambiência - PSB - vago;;;;;;;;;;;;C1.03.02.02.01::vcoordenador;Coordenação
+96;1.03.02.02.01;Coordenação de Ambiência - PSBE;OP001vfernando;Open Position vfernando-Fernando Monteiro Vidal Ferreira;;;;;;;;;;;;C1.03.02.02.01::OP001vfernando;Coordenação
+97;1.03.02.02.02;Coordenação de Segurança - PSBE;narthur;Arthur Azevedo Neto;;;;;;;;;;;;C1.03.02.02.02::narthur;Coordenação
+98;1.03.02.02.02;Coordenação de Segurança - PSBE;vagoseg;Coordenador de Segurança - PSB - vago;;;;;;;;;;;;C1.03.02.02.02::vagoseg;Coordenação
+99;1.03.02.02.02;Coordenação de Segurança - PSBE;jedson;Edson Félix da Silva Júnior;;;;;;;;;;;;C1.03.02.02.02::jedson;Coordenação
+100;1.03.02.02.03;Coordenação de Manutenção - PSBE;pcristiano;Cristiano Francisco Plácido;;85.26;84.69;108.15;105.94;106.02;86.27;85.96;86.14;107.23;108.75;C1.03.02.02.03::pcristiano;Coordenação
+101;1.03.02.02.04;Analista Operações - PSBE;falekson;Alekson Richard Miranda Ferreira;;83.25;82.75;107.85;107.24;107.28;82.35;82.43;82.5;107.59;107.67;C1.03.02.02.04::falekson;Analista
+102;1.03.02.02.04;Analista Operações - PSBE;psboper;Analista de Operações - PSB;;;;;;;;;;;;C1.03.02.02.04::psboper;Analista
+103;1.03.02.02.01.01;Ambiência/Qualidade - PSBE;cpaula;Paula Mendes Café;;;;;;;;;;;;C1.03.02.02.01.01::cpaula;Sem cargo
+104;1.03.02.02.04.01;Almoxarife Operações/Almoxarifado - PSBE;maline;Aline Faustino Rezendes Moreira;;64.89;27.6;57.6;57.0;57.6;57.6;93.82;95.36;95.52;96.38;C1.03.02.02.04.01::maline;Almoxarife
+105;1.03.10.18;Coordenação de Segurança - PSBE;shudson;Coordenador de Segurança PSBE - VAGO;;59.65;59.86;77.87;78.32;92.39;72.39;58.9;58.59;79.69;79.55;C1.03.10.18::shudson;Coordenação
+106;1.03.10.43;Analista de Qualidade  PSBE;ccamila;Camila Carvalho ;;68.83;72.06;92.05;65.14;76.29;56.45;59.66;59.77;85.55;84.7;C1.03.10.43::ccamila;Analista
+107;1.03.02.03;Gerência de Marketing - PSBE;vgerm;Gerente de Marketing - PSB - vago;;;;;;;;;;;;C1.03.02.03::vgerm;Gerência
+108;1.03.02.05;Gerência Administrativa Financeira - PSBE;dgislaine;Gislaine Duarte;;108.49;102.79;108.16;97.8;81.47;84.06;86.75;113.05;112.81;111.9;C1.03.02.05::dgislaine;Gerência
+109;1.03.02.01.01.01;Coordenação de Finanças - PSBE;smarcus;Marcus Vinicius Ferreira dos Santos;;;;;;;;;;;;C1.03.02.01.01.01::smarcus;Coordenação
+110;1.03.02.01.01.01;Coordenação de Finanças - PSBE;OP001omike;Open Position omike-Mike Gabriel Santos de Oliveira;;;;;;;;;;;;C1.03.02.01.01.01::OP001omike;Coordenação
+111;1.03.02.01.01.01;Coordenação de Finanças - PSBE;lmrafael;Rafael Martins Liberio;;57.5;57.5;57.5;57.5;49.93;48.84;49.11;57.5;57.5;57.5;C1.03.02.01.01.01::lmrafael;Coordenação
+112;1.03.02.01.01.03;Analista Financeiro/Cobrança - PSBE;ngrazielly;Grazielly Nogueira;;89.1;107.92;83.92;67.13;89.75;90.77;95.11;97.2;96.64;97.38;C1.03.02.01.01.03::ngrazielly;Analista
+113;1.03.02.01.01.03;Analista Financeiro/Cobrança - PSBE;fheitor;Heitor Pereira Franco;;;;;;;;;;;;C1.03.02.01.01.03::fheitor;Analista
+114;1.03.02.01.01.03;Analista Financeiro/Cobrança - PSBE;asandra;Sandra Teixeira de Andrade;;;;;;;;;;;;C1.03.02.01.01.03::asandra;Analista
+115;1.03.02.01.01.03;Analista Financeiro/Cobrança - PSBE;rwallace;Wallace Lavino Rosa;;;;;;;;;;;;C1.03.02.01.01.03::rwallace;Analista
+116;1.03.02.01.01.10.01;Analista Financeiro/Auditoria - PSBE;ccarla;Carla Santos Pinto Coelho;;81.33;85.46;82.67;77.5;109.07;110.54;110.71;110.59;107.16;108.96;C1.03.02.01.01.10.01::ccarla;Analista
+117;1.03.10.33;Assistente Financeiro - PSBE;cdaniel;Daniel Chagas ;;100.0;100.0;104.5;104.5;100.0;100.0;100.0;100.0;100.0;100.0;C1.03.10.33::cdaniel;Assistente
+118;1.03.02.03.01;Coordenação de Marketing - PSBE;slaura;Coordenação de Marketing - PSB;;;;;;;;;;;;C1.03.02.03.01::slaura;Coordenação
+119;1.03.02.03.01;Coordenação de Marketing - PSBE;vago59;Coordenador de Marketing - PSB - vago;;;;;;;;;;;;C1.03.02.03.01::vago59;Coordenação
+120;1.03.02.03.01;Coordenação de Marketing - PSBE;mdeborah;Deborah Stefany de Sousa Miranda;;92.54;88.52;105.95;104.47;104.15;84.61;83.66;83.47;103.33;103.08;C1.03.02.03.01::mdeborah;Coordenação
+121;1.03.02.03.01.01;Analista Marketing - PSBE;gpatrick;Patrick Gomes;;91.0;87.97;90.91;90.71;91.0;90.72;91.0;87.12;114.33;118.89;C1.03.02.03.01.01::gpatrick;Analista
+122;1.03.02.03.01.02;Comunicação - PSBE;vbruna;Bruna Graziele de Souza Pereira Valério;;;;;;;;;;;;C1.03.02.03.01.02::vbruna;Sem cargo
+123;1.03.02.03.01.02;Comunicação - PSBE;fpatricia;Patrícia Campos Gomes de Lima Fonseca;;;;;;;;;;;;C1.03.02.03.01.02::fpatricia;Sem cargo
+124;1.03.03;Superintendência - PNSN;sacharles;Charles Alves Santiago;;43.3;73.02;67.64;29.5;29.5;19.5;0.0;20.81;10.0;10.0;C1.03.03::sacharles;Superintendência
+125;1.03.03.02;Gerência de Operações - PNSN;mcristiano;Cristiano Araujo Muniz;;52.41;51.88;67.14;66.08;68.36;54.84;55.66;56.77;73.7;74.01;C1.03.03.02::mcristiano;Gerência
+126;1.03.03.02.03.02;Analista Operações - PNSN;sacamila;Camila Andreia da Silva;;;;;;;;;;;;C1.03.03.02.03.02::sacamila;Analista
+127;1.03.03.02.03.02;Analista Operações - PNSN;ocarla;Carla Maryele Alves de Oliveira;;;;;;;;;;;;C1.03.03.02.03.02::ocarla;Analista
+128;1.03.03.02.03.02;Analista Operações - PNSN;rmaria;MARIA DAS GRACAS CAMILO ROCHA;;73.23;74.31;98.22;98.32;98.79;73.34;73.65;73.86;99.04;98.92;C1.03.03.02.03.02::rmaria;Analista
+129;1.03.03.02.01;Coordenação de Ambiência - PNSN;vago14;Coordenador de Ambiência - PNSN - vago;;;;;;;;;;;;C1.03.03.02.01::vago14;Coordenação
+130;1.03.03.02.01.01;Ambiência/Qualidade - PNSN;nthayana;Analista de Qualidade - PNSN - Vago;;;;;;;;;;;;C1.03.03.02.01.01::nthayana;Sem cargo
+131;1.03.03.02.02;Coordenação de Segurança - PNSN;valdir.pereira;Valdir Pereira;;62.21;55.18;74.34;73.62;54.18;60.36;60.65;60.65;74.57;74.63;C1.03.03.02.02::valdir.pereira;Coordenação
+132;1.03.03.02.03;Coordenação de Manutenção - PNSN;njose;Coordenação de Manutenção - PNSN - vago;;;;;;;;;;;;C1.03.03.02.03::njose;Coordenação
+133;1.03.03.02.03;Coordenação de Manutenção - PNSN;eli.souza;Elijerdson Balduino de Souza (Eli Souza);;98.27;98.38;118.48;118.38;118.46;98.49;98.48;98.47;118.41;118.28;C1.03.03.02.03::eli.souza;Coordenação
+134;1.03.03.02.03.03;Almoxarifado - PNSN;valmoxarife;Almoxarife- PNSN - vago;;;;;;;;;;;;C1.03.03.02.03.03::valmoxarife;Sem cargo
+135;1.03.03.02.03.03;Almoxarifado - PNSN;semarcio;Márcio Emílio da Silva;;;;;;;;;;;;C1.03.03.02.03.03::semarcio;Sem cargo
+136;1.03.03.09;Coordenação de Ambiência- PNSN VAGO;swellington;VAGO - PNSN;;71.09;71.09;82.04;88.04;87.93;41.93;67.85;68.6;88.58;20.0;C1.03.03.09::swellington;Coordenação
+137;1.03.10.08;Almoxarife - PNSN;smarcio;Marcio Emilio da Silva ;;71.63;71.66;88.37;101.2;91.77;48.0;64.46;67.49;87.73;92.72;C1.03.10.08::smarcio;Almoxarife
+138;1.03.03.01;Gerência Financeira/Comercial - PNSN;wdenise;Denise Birck Webers;;;;;;;;;;;;C1.03.03.01::wdenise;Gerência
+139;1.03.03.01;Gerência Financeira/Comercial - PNSN;smoises;Gerência Financeira/Comercial - PNSN;;;;;;;;;;;;C1.03.03.01::smoises;Gerência
+140;1.03.03.01;Gerência Financeira/Comercial - PNSN;vgleyson;Gleyson Flaviano Vieira;;;;;;;;;;;;C1.03.03.01::vgleyson;Gerência
+141;1.03.03.01;Gerência Financeira/Comercial - PNSN;jvander;Vander de Freitas Junior;;;;;;;;;;;;C1.03.03.01::jvander;Gerência
+142;1.03.03.01.01.01;Cobrança - PNSN;cnjonathan;Jonathan Nascimento da Cruz;;;;;;;;;;;;C1.03.03.01.01.01::cnjonathan;Sem cargo
+143;1.03.03.01.01.01;Cobrança - PNSN;fmozane;Mozane Targino de Figueiredo;;;;;;;;;;;;C1.03.03.01.01.01::fmozane;Sem cargo
+144;1.03.03.01.01.02;Analista Financeiro/Cobrança - PNSN;OPEX;EXCLUIR;;;;;;;;;;;;C1.03.03.01.01.02::OPEX;Analista
+145;1.03.03.01.01.02;Analista Financeiro/Cobrança - PNSN;stiago;Tiago Rosendo da Silva;;;;;;;;;;;;C1.03.03.01.01.02::stiago;Analista
+146;1.03.03.01.01.03;Financeiro - PNSN;nluzimeyre;Luzimeyre de Azevedo Nunes;;;;;;;;;;;;C1.03.03.01.01.03::nluzimeyre;Sem cargo
+147;1.03.03.01.01.03;Financeiro - PNSN;OP003sthayse;Open Position sthayse-Thayse Lopes de Sousa;;;;;;;;;;;;C1.03.03.01.01.03::OP003sthayse;Sem cargo
+148;1.03.03.03;Gerência de Marketing - PNSN;vago17;Gerente de Marketing - PNSN - vago;;;;;;;;;;;;C1.03.03.03::vago17;Gerência
+149;1.03.10.31;Gerência de Finanças - PNSN;lmarcelo;Marcelo Alves Cordeiro Leal ;;18.4;52.49;31.1;0.0;0.0;0.0;0.0;28.56;0.0;0.0;C1.03.10.31::lmarcelo;Gerência
+150;1.04.10;Assistente Administrativo- PNSN;tjorge;Jorge Antonio dos Santos Teixeira;;30.0;27.0;27.0;27.0;27.0;27.0;27.0;27.0;27.0;27.0;C1.04.10::tjorge;Assistente
+151;1.04.26;Analista de Cobrança - PNSN;joseb;José Lucas Lira Borges;;26.0;63.64;63.38;18.09;26.0;45.31;44.62;44.97;44.49;44.47;C1.04.26::joseb;Analista
+152;1.04.09;Analista  de Auditoria - PNSN;leticia.caldas;Letícia Caldas;;46.88;45.86;74.02;73.67;98.81;99.45;74.3;101.69;73.19;77.83;C1.04.09::leticia.caldas;Analista
+153;1.03.03.01.02.01;Analista Financeiro - PNSN;pamanda;Amanda Silva Pereira;;;;;;;;;;;;C1.03.03.01.02.01::pamanda;Analista
+154;1.03.03.01.02.01;Analista Financeiro - PNSN;sgracileide;Gracileide Kamila Patriota Silva (Kamila Miranda);;48.38;25.0;25.0;25.0;25.0;25.0;25.0;25.0;25.0;25.0;C1.03.03.01.02.01::sgracileide;Analista
+155;1.03.03.01.02.01;Analista Financeiro - PNSN;olarissa;Larissa Tertulino de Oliveira;;;;;;;;;;;;C1.03.03.01.02.01::olarissa;Analista
+156;1.03.03.03.01;Gerência de Marketing - PNSN;celisangela;Elisangela de Souza Costa;;73.04;71.1;89.07;88.21;86.71;65.88;80.45;79.56;100.41;71.52;C1.03.03.03.01::celisangela;Gerência
+157;1.03.03.03.01.02;Comunicação - PNSN;smichelle;Michelle Phiffer Medeiros dos Santos;;;;;;;;;;;;C1.03.03.03.01.02::smichelle;Sem cargo
+158;1.03.03.03.01.01;Marketing - PNSN;vfladja;Fladja Raissa Dantas Vieira;;;;;;;;;;;;C1.03.03.03.01.01::vfladja;Sem cargo
+159;1.03.03.03.01.01;Marketing - PNSN;rkarla;Karla Rafhaella Bento;;;;;;;;;;;;C1.03.03.03.01.01::rkarla;Sem cargo
+160;1.03.03.03.01.01;Marketing - PNSN;OP001smichelle;Open Position smichelle-MICHELLE PHIFFER MEDEIROS DOS SANTOS;;;;;;;;;;;;C1.03.03.03.01.01::OP001smichelle;Sem cargo
+161;1.03.09.11;Analista Marketing- PNSN;bmaria;Maria Clara Bezerra;;85.96;86.81;87.29;87.8;87.55;87.29;118.78;122.27;122.19;122.36;C1.03.09.11::bmaria;Analista
+162;1.03.04;Superintendência - PSCG;farlindo;Superintendência - PSCG - vago;;;;;;;;;;;;C1.03.04::farlindo;Superintendência
+163;1.03.04;Superintendência - PSCG;swagner;Wagner Silva;;84.5;83.68;102.19;111.0;111.07;96.62;104.94;92.37;101.69;90.52;C1.03.04::swagner;Superintendência
+164;1.03.04.02;Gerência de Operações - PSCG;vcristiano;Cristiano Hampe Vargas;;65.78;65.22;90.61;90.37;95.38;95.67;95.41;92.65;92.27;93.06;C1.03.04.02::vcristiano;Gerência
+165;1.03.04.02;Gerência de Operações - PSCG;gluiz;Luiz Péricles Rodrigues Gomes;;;;;;;;;;;;C1.03.04.02::gluiz;Gerência
+166;1.03.04.02.03.03;Almoxarifado - PSCG;bjonathas;Jonathas Andrade Barros;;;;;;;;;;;;C1.03.04.02.03.03::bjonathas;Sem cargo
+167;1.03.04.02.03.03;Almoxarifado - PSCG;prayk;Rayk Leaffar Marcolino Pessoa;;;;;;;;;;;;C1.03.04.02.03.03::prayk;Sem cargo
+168;1.03.04.02.01;Coordenação de Ambiência - PSCG;vago25;Bruno Henrique Dantas Brasil;;;;;;;;;;;;C1.03.04.02.01::vago25;Coordenação
+169;1.03.04.02.01;Coordenação de Ambiência - PSCG;bbruno;Bruno Henrique Dantas Brasil;;70.89;65.22;83.74;84.0;107.52;107.45;107.58;112.83;112.26;112.03;C1.03.04.02.01::bbruno;Coordenação
+170;1.03.04.02.02;Coordenação de Segurança - PSCG;falaor;Alaor Rodrigues de Freitas;;;;;;;;;;;;C1.03.04.02.02::falaor;Coordenação
+171;1.03.04.02.02;Coordenação de Segurança - PSCG;sanderson;Anderson Pedro Arruda da Silva;;;;;;;;;;;;C1.03.04.02.02::sanderson;Coordenação
+172;1.03.04.02.02;Coordenação de Segurança - PSCG;tcassyo;Cassyo Conceição Teixeira ;;;;;;;;;;;;C1.03.04.02.02::tcassyo;Coordenação
+173;1.03.04.02.02;Coordenação de Segurança - PSCG;bfabio;Fabio José Gouveia de Brito;;;;;;;;;;;;C1.03.04.02.02::bfabio;Coordenação
+174;1.03.04.02.02;Coordenação de Segurança - PSCG;sgilliard;Gilliard Pereira da Silva;;;;;;;;;;;;C1.03.04.02.02::sgilliard;Coordenação
+175;1.03.04.02.02;Coordenação de Segurança - PSCG;shenrique;Henrique Douglas dos Santos Silva;;;;;;;;;;;;C1.03.04.02.02::shenrique;Coordenação
+176;1.03.04.02.02;Coordenação de Segurança - PSCG;ajairqueles;Jairqueles Justino de Almeida;;;;;;;;;;;;C1.03.04.02.02::ajairqueles;Coordenação
+177;1.03.04.02.02;Coordenação de Segurança - PSCG;fjean;Jean Pierre Pereira de Farias;;;;;;;;;;;;C1.03.04.02.02::fjean;Coordenação
+178;1.03.04.02.02;Coordenação de Segurança - PSCG;bjoelson;Joelson Luiz Brandão;;;;;;;;;;;;C1.03.04.02.02::bjoelson;Coordenação
+179;1.03.04.02.02;Coordenação de Segurança - PSCG;cjonathan;Jonathan Bezerra da Costa;;;;;;;;;;;;C1.03.04.02.02::cjonathan;Coordenação
+180;1.03.04.02.02;Coordenação de Segurança - PSCG;srjose;José Roberto Gouveia de Sousa;;;;;;;;;;;;C1.03.04.02.02::srjose;Coordenação
+181;1.03.04.02.02;Coordenação de Segurança - PSCG;dmagno;Magno Sabino Morais Dias;;60.02;56.91;76.97;77.2;77.63;75.79;73.91;73.72;65.65;86.96;C1.03.04.02.02::dmagno;Coordenação
+182;1.03.04.02.02;Coordenação de Segurança - PSCG;rmaricelio;Maricelio Vidal Rodrigues;;;;;;;;;;;;C1.03.04.02.02::rmaricelio;Coordenação
+183;1.03.04.02.02;Coordenação de Segurança - PSCG;smatteus;Matteus Alves da Silva;;;;;;;;;;;;C1.03.04.02.02::smatteus;Coordenação
+184;1.03.04.02.02;Coordenação de Segurança - PSCG;crafael;Rafael Augusto da Silva Campelo;;;;;;;;;;;;C1.03.04.02.02::crafael;Coordenação
+185;1.03.04.02.02;Coordenação de Segurança - PSCG;srthiago;Thiago Ramos da Silva;;;;;;;;;;;;C1.03.04.02.02::srthiago;Coordenação
+186;1.03.04.02.03;Coordenação de Manutenção - PSCG;bjacob;Coordenador de Manutenção - PSCG - vago;;;;;;;;;;;;C1.03.04.02.03::bjacob;Coordenação
+187;1.03.04.02.01.01;Ambiência/Qualidade - PSCG;vqualidade;Analista de Qualidade - PSCG - vago;;;;;;;;;;;;C1.03.04.02.01.01::vqualidade;Sem cargo
+188;1.03.04.02.03.02;Manutenção/Operações - PSCG;vago.pscg1;Analista de Operações - PSCG - vago;;;;;;;;;;;;C1.03.04.02.03.02::vago.pscg1;Sem cargo
+189;1.03.04.02.03.02;Manutenção/Operações - PSCG;OP001edimilson.cg;Open Position edimilson.cg-Edimilson;;;;;;;;;;;;C1.03.04.02.03.02::OP001edimilson.cg;Sem cargo
+190;1.03.10.03;Analista de Operações - PSCG;lrayk;Rayk leaffar ;;76.37;76.72;102.19;102.28;102.16;101.74;101.55;101.44;101.41;101.52;C1.03.10.03::lrayk;Analista
+191;1.03.04.09;Coordenação de Manutenção- PSCG;mfrancisco;Coordenador de Manutenção - PSCG- VAGO;;60.85;62.07;102.84;103.61;108.65;108.73;109.27;105.72;106.37;88.91;C1.03.04.09::mfrancisco;Coordenação
+192;1.03.04.01;Gerência Financeira/Comercial - PSCG;pleandro;Leandro Pessetti;;83.42;102.19;99.79;112.29;113.02;113.81;112.97;93.68;111.34;92.76;C1.03.04.01::pleandro;Gerência
+193;1.03.04.01.01;Coordenação Administrativa/Financeira - PSCG;OP001calana;Open Position calana-ALANA CASTRO;;;;;;;;;;;;C1.03.04.01.01::OP001calana;Coordenação
+194;1.03.04.01.01.05;Administrativo - PSCG;vagoaaa;Assistente Administrativo - Vago;;;;;;;;;;;;C1.03.04.01.01.05::vagoaaa;Sem cargo
+195;1.03.04.01.02;Comercial/Auditoria - PSCG;berenata;Renata Emanuella da Silva Barros;;;;;;;;;;;;C1.03.04.01.02::berenata;Sem cargo
+196;1.03.04.01.02.01;Auditoria - PSCG;odanilo;Analista de Auditoria - Vago;;;;;;;;;;;;C1.03.04.01.02.01::odanilo;Sem cargo
+197;1.03.04.01.02.02;Comercial - PSCG;vago86;Analista Comercial - PSCG - vago;;;;;;;;;;;;C1.03.04.01.02.02::vago86;Sem cargo
+198;1.03.04.01.02.02.01;Comercial - PSCG;vago21;Assistente Comercial - PSCG - vago;;;;;;;;;;;;C1.03.04.01.02.02.01::vago21;Sem cargo
+199;1.03.04.01.01.04;Analista de Auditoria - PSCG;acyntia;Cyntia Rachel Fernandes de Andrade;;99.57;108.64;107.37;108.48;108.54;108.77;110.39;109.55;109.81;111.13;C1.03.04.01.01.04::acyntia;Analista
+200;1.03.04.01.01.04;Analista de Auditoria - PSCG;ojessica;Jessica Oliveira;;;;;;;;;;;;C1.03.04.01.01.04::ojessica;Analista
+201;1.03.04.01.01.04;Analista de Auditoria - PSCG;fmaria;Maria Julia Freire Figueiredo;;;;;;;;;;;;C1.03.04.01.01.04::fmaria;Analista
+202;1.03.04.01.01.01;Analista Financeiro/Contas a Pagar - PSCG;spriscila;Priscila Caetano da Silva;;64.5;102.75;102.0;101.63;102.5;63.75;99.36;98.4;101.23;101.68;C1.03.04.01.01.01::spriscila;Analista
+203;1.03.04.01.01.02;Analista Financeiro - PSCG;cjane;Jane Morais da Costa;;51.32;88.34;69.02;70.73;72.07;72.77;70.19;71.45;72.29;73.01;C1.03.04.01.01.02::cjane;Analista
+204;1.03.04.01.01.02;Analista Financeiro - PSCG;OP001vago69;Open Position vago69-vago69;;;;;;;;;;;;C1.03.04.01.01.02::OP001vago69;Analista
+205;1.04.35;Analista Financeiro/Cobrança - PSCG;ssroberta;Roberta Silva Sales ;;109.01;88.26;91.37;94.62;97.8;100.38;104.0;104.0;104.0;104.0;C1.04.35::ssroberta;Analista
+206;1.03.04.03.01.02;Comunicação - PSCG;OP001aclara;Open Position aclara-Clara Maria Araujo;;;;;;;;;;;;C1.03.04.03.01.02::OP001aclara;Sem cargo
+207;1.03.04.03;Gerência de Marketing - PSCG;mclaudia;Claudia, Mary Durães Miranda;;51.1;63.31;64.02;83.62;97.03;97.83;101.83;100.93;101.81;100.57;C1.03.04.03::mclaudia;Gerência
+208;1.03.04.03;Gerência de Marketing - PSCG;broberta;Gerente de Marketing - PSCG - vago;;;;;;;;;;;;C1.03.04.03::broberta;Gerência
+209;1.03.04.03.01.01;Analista Marketing - PSCG;fgabriella;Analista de Marketing - PSCG - vago;;;;;;;;;;;;C1.03.04.03.01.01::fgabriella;Analista
+210;1.03.04.03.01.01;Analista Marketing - PSCG;bielison;Ielison dos Santos Barbosa;;;;;;;;;;;;C1.03.04.03.01.01::bielison;Analista
+211;1.03.04.03.01.01;Analista Marketing - PSCG;btslucas;Lucas Tarciano Silva Bastos;;83.36;87.06;84.36;84.91;91.0;91.0;130.0;130.0;129.28;128.78;C1.03.04.03.01.01::btslucas;Analista
+212;1.04.36;Superintendência - PSRG;OP001jcelso;Open Position jcelso-Celso Santos Couto Junior;;;;;;;;;;;;C1.04.36::OP001jcelso;Superintendência
+213;1.04.36;Superintendência - PSRG;rpatricia;Patricia Castro da Silva Rossi;;84.5;84.5;93.29;93.67;93.8;93.16;92.79;92.6;92.45;92.51;C1.04.36::rpatricia;Superintendência
+214;1.03.07.02;Gerência de Operações -PSRG;srcamila;Camila Rangel dos Santos;;;;;;;;;;;;C1.03.07.02::srcamila;Gerência
+215;1.03.07.02;Gerência de Operações -PSRG;carlosbunde;Carlos Bunde;;52.22;51.09;63.6;63.16;62.84;63.12;64.35;66.19;66.6;67.11;C1.03.07.02::carlosbunde;Gerência
+216;1.03.07.02;Gerência de Operações -PSRG;vgerentevago;Gerente de Operações - PSRG - vago;;;;;;;;;;;;C1.03.07.02::vgerentevago;Gerência
+217;1.03.07.02;Gerência de Operações -PSRG;GerentedeOperacoes-PSRG-vago;Gerente de Operações - PSRG - vago;;;;;;;;;;;;C1.03.07.02::GerentedeOperacoes-PSRG-vago;Gerência
+218;1.03.07.02;Gerência de Operações -PSRG;OP001srcamila;Open Position srcamila-Camila Rangel dos Santos;;;;;;;;;;;;C1.03.07.02::OP001srcamila;Gerência
+219;1.03.07.02.01;Coordenação de Ambiência - PSRG;vago.psrg2;Coordenador de Ambiência - PSRG - vago;;;;;;;;;;;;C1.03.07.02.01::vago.psrg2;Coordenação
+220;1.03.07.02.01;Coordenação de Ambiência - PSRG;OP001ebenavenuto;Open Position ebenavenuto-Edson Benavenuto;;;;;;;;;;;;C1.03.07.02.01::OP001ebenavenuto;Coordenação
+221;1.03.07.02.01.01;Ambiência/Qualidade - PSRG;pisadora;Analista de Qualidade - PSRG - vago;;;;;;;;;;;;C1.03.07.02.01.01::pisadora;Sem cargo
+222;1.03.07.02.02;Coordenação de Segurança - PSRG;bracarlos;Carlos Alexandre Rangel de Barros;;;;;;;;;;;;C1.03.07.02.02::bracarlos;Coordenação
+223;1.03.07.02.02;Coordenação de Segurança - PSRG;fkleison;Kleison de Castro Fernandes;;;;;;;;;;;;C1.03.07.02.02::fkleison;Coordenação
+224;1.03.07.02.02;Coordenação de Segurança - PSRG;subiratan;Ubiratan Gomes da Silva;;;;;;;;;;;;C1.03.07.02.02::subiratan;Coordenação
+225;1.03.07.02.03;Coordenação de Segurança -PSRG;salan;Alan Cavalcanti da Silva;;;;;;;;;;;;C1.03.07.02.03::salan;Coordenação
+226;1.03.07.02.03;Coordenação de Segurança -PSRG;christianmoura;Christian da Silva Moura;;;;;;;;;;;;C1.03.07.02.03::christianmoura;Coordenação
+227;1.03.07.02.03;Coordenação de Segurança -PSRG;aalencar;Coordenador de Manutenção - vago;;;;;;;;;;;;C1.03.07.02.03::aalencar;Coordenação
+228;1.03.07.02.03;Coordenação de Segurança -PSRG;lleonardo;Leonardo Lobato;;58.59;57.94;77.58;78.45;77.7;77.46;77.69;77.65;77.54;77.15;C1.03.07.02.03::lleonardo;Coordenação
+229;1.03.07.02.03;Coordenação de Segurança -PSRG;bsilvia;Silvia Juliana Becker;;;;;;;;;;;;C1.03.07.02.03::bsilvia;Coordenação
+230;1.03.07.02.03.03;Almoxarifado - PSRG;vago.psrg;Almoxarife - PSRG - vago;;;;;;;;;;;;C1.03.07.02.03.03::vago.psrg;Sem cargo
+231;1.03.07.02.03.03;Almoxarifado - PSRG;OP001balvaro;Open Position balvaro-Alvaro Blank;;;;;;;;;;;;C1.03.07.02.03.03::OP001balvaro;Sem cargo
+232;1.03.07.02.04;Coordenador de Ambiência VAGO - PSRG;madriana;Adriana Monteiro- Coordenador de Ambiência- PSRG VAGO;;;;;;;;;;;;C1.03.07.02.04::madriana;Sem cargo
+233;1.03.07.02.03.02;Manutenção/Operações - PSRG;fgiovani;Analista de Operações - PSRG - vago;;;;;;;;;;;;C1.03.07.02.03.02::fgiovani;Sem cargo
+234;1.03.07.02.03.02;Manutenção/Operações - PSRG;OP001vago74;Open Position vago74-vago74;;;;;;;;;;;;C1.03.07.02.03.02::OP001vago74;Sem cargo
+235;1.03.07.15;Analista de Operações PSRG;gjose;Jose Antônio Gomes Junior;;50.99;50.47;75.27;74.24;70.55;71.62;70.9;71.02;69.02;92.29;C1.03.07.15::gjose;Analista
+236;1.03.07.17;Analista de Ambiência PSRG ;lmario;Mario Luiz Alexandre Dziekan;;27.44;33.88;66.15;66.05;64.22;65.45;64.39;57.34;58.84;39.89;C1.03.07.17::lmario;Analista
+237;1.03.07.18;Coordenação de manutenção PSRG;bsilvia;Silvia Juliana Becker;;65.0;110.1;62.43;57.17;65.0;64.23;63.93;47.84;0.0;0.0;C1.03.07.18::bsilvia;Coordenação
+238;1.03.07.01.01.02;Financeiro - PSRG;vago75;Analista Faturamento/Recebimento - PSRG - vago;;;;;;;;;;;;C1.03.07.01.01.02::vago75;Sem cargo
+239;1.03.07.01.01.04;Recursos Humanos - PSRG;pariadni;Ariadni Veiga Pereira;;;;;;;;;;;;C1.03.07.01.01.04::pariadni;Sem cargo
+240;1.03.07.03.01;Coordenação de Marketing - PSRG;sadriene;Adriene Antunes Soares;;64.2;79.83;85.18;88.1;85.24;84.95;84.46;56.17;56.69;57.69;C1.03.07.03.01::sadriene;Coordenação
+241;1.03.07.03.01;Coordenação de Marketing - PSRG;vago58;Coordenador de Marketing - PSRG - vago;;;;;;;;;;;;C1.03.07.03.01::vago58;Coordenação
+242;1.03.07.03.01.01;Comunicação - PSRG;OP001vago_200;Open Position vago_200-Analista de Marketing - PSRG - vago;;;;;;;;;;;;C1.03.07.03.01.01::OP001vago_200;Sem cargo
+243;1.03.07.03.01.02;Analista Marketing - PSRG;vago56;Analista de Comunicação - PSRG - vago;;;;;;;;;;;;C1.03.07.03.01.02::vago56;Analista
+244;1.03.07.03.01.02;Analista Marketing - PSRG;bkaren;Karen Barros;;26.0;26.0;62.0;86.78;93.02;94.06;100.86;122.36;122.99;126.18;C1.03.07.03.01.02::bkaren;Analista
+245;1.03.07.01.01.10;Analista de Auditoria  - PSRG;balexsandro;Alexsandro Xavier Barbat;;81.24;78.3;78.73;77.16;78.56;79.56;78.5;79.21;78.48;76.97;C1.03.07.01.01.10::balexsandro;Analista
+246;1.03.07.01.01.10;Analista de Auditoria  - PSRG;vago;Assistente Administrativo - PSRG - vago;;;;;;;;;;;;C1.03.07.01.01.10::vago;Analista
+247;1.03.07.01.01.03;Analista Financeiro/Cobrança - PSRG;vago76;Analista Cobrança - PSRG - vago;;;;;;;;;;;;C1.03.07.01.01.03::vago76;Analista
+248;1.03.07.01.01.03;Analista Financeiro/Cobrança - PSRG;jbruna;Bruna Jesus;;71.98;59.45;60.23;57.33;40.3;19.08;18.04;0.0;0.0;0.0;C1.03.07.01.01.03::jbruna;Analista
+249;1.03.07.01.01.01;Analista Financeiro/Contas a Pagar - PSRG;mmaria;Financeiro/Contas a Pagar - PSRG - VAGO;;;;;;;;;;;;C1.03.07.01.01.01::mmaria;Analista
+250;1.03.07.01.01.01;Analista Financeiro/Contas a Pagar - PSRG;ljennifer;Jennifer Lemos ;;74.28;73.17;75.0;75.0;75.0;75.0;75.0;68.75;68.25;68.0;C1.03.07.01.01.01::ljennifer;Analista
+251;1.03.07.01.01.01;Analista Financeiro/Contas a Pagar - PSRG;oslarissa;Larissa da Silva Ortiz;;;;;;;;;;;;C1.03.07.01.01.01::oslarissa;Analista
+252;1.03.05;Superintendência - PSMO;cthiago;Thiago de Azevedo Cunha;;81.71;78.0;101.0;90.69;88.65;85.07;81.09;76.35;72.85;68.82;C1.03.05::cthiago;Superintendência
+253;1.03.05.02;Gerência de Operações - PSMO;fcauly;CAULY DE CASTRO FREIRE;;;;;;;;;;;;C1.03.05.02::fcauly;Gerência
+254;1.03.05.02;Gerência de Operações - PSMO;fccauly;Gerente de Operacoes - PSM;;;;;;;;;;;;C1.03.05.02::fccauly;Gerência
+255;1.03.05.02;Gerência de Operações - PSMO;sronin;Ronin Santos;;56.45;54.92;72.2;68.63;67.0;66.07;65.93;64.0;76.05;74.48;C1.03.05.02::sronin;Gerência
+256;1.03.05.02.02;Coordenação de Segurança - PSMO;ogenilson;Genilson Gois de Oliveira;;;;;;;;;;;;C1.03.05.02.02::ogenilson;Coordenação
+257;1.03.05.02.02;Coordenação de Segurança - PSMO;mjhonson;Jhonson Mikarlos de Souza Mota;;;;;;;;;;;;C1.03.05.02.02::mjhonson;Coordenação
+258;1.03.05.02.02;Coordenação de Segurança - PSMO;akarlo;Karlo Sartoris de Aguiar;;60.68;60.42;85.31;85.33;85.14;84.95;84.34;84.01;83.63;83.59;C1.03.05.02.02::akarlo;Coordenação
+259;1.03.05.02.02;Coordenação de Segurança - PSMO;crrafael;Rafael Ribeiro de Castro;;;;;;;;;;;;C1.03.05.02.02::crrafael;Coordenação
+260;1.03.05.02.03;Coordenação de Manutenção - PSMO;cmanutencao;Coordenador de Manutenção - PSM - vago;;;;;;;;;;;;C1.03.05.02.03::cmanutencao;Coordenação
+261;1.03.10.01;Coordenação de Manutenção - PSMO;valan;ALAN ARAÚJO VELOSO;;;;;;;;;;;;C1.03.10.01::valan;Coordenação
+262;1.03.10.01;Coordenação de Manutenção - PSMO;vallan;Allan Araújo Veloso;;84.79;92.3;120.97;118.68;117.11;116.31;121.5;120.34;122.29;122.3;C1.03.10.01::vallan;Coordenação
+263;1.03.05.10;Analista de Operações -PSMO;dsWesllianny;Wesllianny dos Santos;;40.81;70.7;96.58;91.61;91.62;91.82;97.87;97.79;97.8;97.74;C1.03.05.10::dsWesllianny;Analista
+264;1.03.10.70;Coordenação de Segurança - PSMO;OP001teste123;Open Position teste123-teste;;;;;;;;;;;;C1.03.10.70::OP001teste123;Coordenação
+265;1.03.05.01;Gerência Financeira/Comercial - PSMO;sdeyse;Deyse Juliane Trajano da Silva;;81.07;116.0;116.0;104.66;105.59;102.0;99.99;97.56;97.47;95.68;C1.03.05.01::sdeyse;Gerência
+266;1.03.05.01.02;Coordenação Comercial/Auditoria - PSMO;vago32;Coordenador Comercial/Auditoria - PSM - vago;;;;;;;;;;;;C1.03.05.01.02::vago32;Coordenação
+267;1.03.05.01.01;Coordenação Administrativa/Financeira - PSMO;vago100;Coordenador Administrativo/Financeiro - PSM - vago;;;;;;;;;;;;C1.03.05.01.01::vago100;Coordenação
+268;1.03.05.01.01.05;Financeiro - PSMO;selizabeth;Elizabeth Ferreira Jales Soares;;;;;;;;;;;;C1.03.05.01.01.05::selizabeth;Sem cargo
+269;1.03.05.01.01.09;Comercial - PSMO;sroberta;Roberta Kênia da Silva;;;;;;;;;;;;C1.03.05.01.01.09::sroberta;Sem cargo
+270;1.03.05.01.01.09.01;Comercial - PSMO;vago31;Assistente Comercial - PSM - vago;;;;;;;;;;;;C1.03.05.01.01.09.01::vago31;Sem cargo
+271;1.03.05.01.01.10;Administrativo - PSMO;vago234;Assistente Administrativo - PSM - vago;;;;;;;;;;;;C1.03.05.01.01.10::vago234;Sem cargo
+272;1.03.05.01.01.04;Recursos Humanos - PSMO;rcleidiani;Cleidiani Lediane Romão;;;;;;;;;;;;C1.03.05.01.01.04::rcleidiani;Sem cargo
+273;1.03.05.01.01.05.02;Analista de Auditoria - PSMO;phosana;Hosana Linara Arruda Paiva Fernandes;;107.16;111.81;86.01;110.66;85.76;114.03;110.71;108.09;110.28;108.52;C1.03.05.01.01.05.02::phosana;Analista
+274;1.03.05.01.01.05.02;Analista de Auditoria - PSMO;OP001elizabeth.mo;Open Position elizabeth.mo-ELIZABETH JALES;;;;;;;;;;;;C1.03.05.01.01.05.02::OP001elizabeth.mo;Analista
+275;1.03.05.01.01.01;Analista Financeiro - PSMO;cdaniella;Daniella de Oliveira Carvalho;;99.62;75.4;75.88;75.01;74.81;74.18;74.56;74.96;75.1;75.19;C1.03.05.01.01.01::cdaniella;Analista
+276;1.03.05.01.01.03;Analista Financeiro/Cobrança - PSMO;nestefania;Estefânia Maria dos Santos Nascimento;;;;;;;;;;;;C1.03.05.01.01.03::nestefania;Analista
+277;1.03.05.01.01.03;Analista Financeiro/Cobrança - PSMO;lozeana;Ozeana Celestino de Lima;;45.27;101.59;122.46;97.02;97.26;97.09;97.0;96.75;97.2;97.4;C1.03.05.01.01.03::lozeana;Analista
+278;1.03.05.01.01.02;Auxiliar Financeiro/PSMO;nana;Ana Raquel Rocha Nascimento;;109.0;109.0;70.0;70.0;70.0;70.0;70.0;70.0;70.0;70.0;C1.03.05.01.01.02::nana;Auxiliar
+279;1.03.05.03.01;Coordenação de Marketing - PSMO;aclara;Clara Maria Araujo;;56.8;69.52;94.9;97.94;96.34;94.81;95.4;94.78;94.32;93.97;C1.03.05.03.01::aclara;Coordenação
+280;1.03.05.03.01.01;Analista de Marketing - PSMO;sgleicy;Gleicy Louis Souza Santiago;;122.58;91.0;91.0;91.0;91.0;130.0;130.0;130.0;130.0;130.0;C1.03.05.03.01.01::sgleicy;Analista
+281;1.03.05.03.01.02;Comunicação - PSMO;vagocom;Analista de Comunicação - PSM - vago;;;;;;;;;;;;C1.03.05.03.01.02::vagocom;Sem cargo
+282;1.03.05.03.01.01.01;Marketing - PSMO;sgleicy;Gleicy Louis Souza Santiago;;;;;;;;;;;;C1.03.05.03.01.01.01::sgleicy;Sem cargo
+283;1.03.06;Superintendência - PSPA;mantonio;Antonio Carlos Mazivieiro;;;;;;;;;;;;C1.03.06::mantonio;Superintendência
+284;1.03.06;Superintendência - PSPA;ohudalet;Hudalet da Conceição Oliveira;;59.52;57.22;70.91;62.71;61.39;64.38;60.65;58.16;54.5;32.5;C1.03.06::ohudalet;Superintendência
+285;1.03.06.01;Gerência Financeira - PSPA;VAGOcfelipe;(VAGO) FELIPE CASTRO DE SOUZA COTA;;58.63;56.93;57.1;32.55;7.22;7.97;7.04;6.41;5.5;0.0;C1.03.06.01::VAGOcfelipe;Gerência
+286;1.03.06.01.01;Coordenação Administrativa/Financeira - PSPA;cmthais;Thais Milena Lobato Correa;;;;;;;;;;;;C1.03.06.01.01::cmthais;Coordenação
+287;1.03.06.01.01;Coordenação Administrativa/Financeira - PSPA;sothiago;Thiago Oliveira de Sousa;;;;;;;;;;;;C1.03.06.01.01::sothiago;Coordenação
+288;1.03.06.01.02.01;Auxiliar de Auditoria - PSPA;OP001lerika;Open Position lerika-Erika Lira;;;;;;;;;;;;C1.03.06.01.02.01::OP001lerika;Auxiliar
+289;1.03.06.01.02.01;Auxiliar de Auditoria - PSPA;aspedro;PEDRO RIQUELMY SOUSA DE AVIZ;;28.58;0.0;27.76;0.0;20.98;20.93;20.91;45.86;20.66;20.54;C1.03.06.01.02.01::aspedro;Auxiliar
+290;1.03.06.01.01.02;Analista Financeiro - PSPA;bvmarcos;Marcos Vinicius Pereira Barbosa;;74.98;74.56;74.05;74.1;73.48;73.48;73.23;72.69;72.58;71.37;C1.03.06.01.01.02::bvmarcos;Analista
+291;1.03.06.01.01.03;Analista Financeiro/Cobrança - PSPA;rlaelia;Laélia Rodrigues Rocha;;;;;;;;;;;;C1.03.06.01.01.03::rlaelia;Analista
+292;1.03.06.01.01.03;Analista Financeiro/Cobrança - PSPA;fudilson;Udilson Novaes Silva Filho;;0.0;0.0;0.0;0.0;0.0;0.0;18.11;18.28;18.15;18.05;C1.03.06.01.01.03::fudilson;Analista
+293;1.03.06.01.01.05;Administrativo - PSPA;vago36;Assistente Administrativo - PSP - vago;;;;;;;;;;;;C1.03.06.01.01.05::vago36;Sem cargo
+294;1.03.06.10;Assistente administrativo financeiro PSPA;VAGObrafael;(VAGO) Rafael Guimarães Borba;;;;;;;;100.0;99.49;99.66;60.0;C1.03.06.10::VAGObrafael;Assistente
+295;1.03.06.03;Gerência de Marketing - PSPA;vago49;Gerente de Marketing - PSP - vago;;;;;;;;;;;;C1.03.06.03::vago49;Gerência
+296;1.03.06.02;Gerência de Operações - PSPA;sjclovis;José Clóvis Serafim;;50.58;59.63;84.64;83.8;83.53;82.79;60.4;59.98;77.97;52.09;C1.03.06.02::sjclovis;Gerência
+297;1.03.06.02.01;Coordenação de Ambiência - PSPA;vago44;Coordenador de Ambiência - PSP - vago;;;;;;;;;;;;C1.03.06.02.01::vago44;Coordenação
+298;1.03.06.02.01.01;Ambiência/Qualidade - PSPA;vago43;Analista de Qualidade - PSP - Vago;;;;;;;;;;;;C1.03.06.02.01.01::vago43;Sem cargo
+299;1.03.06.02.02;Coordenação de Segurança - PSPA;sspaulo;Paulo dos Santos Sousa;;86.92;90.95;107.47;101.51;108.79;108.51;114.87;114.7;114.59;114.49;C1.03.06.02.02::sspaulo;Coordenação
+300;1.03.06.02.03;Coordenação de Manutenção - PSPA;CoordenadorPSP;Coordenador de Manutenção - PSP - vago;;;;;;;;;;;;C1.03.06.02.03::CoordenadorPSP;Coordenação
+301;1.03.06.02.03;Coordenação de Manutenção - PSPA;sgleison;Gleison Pedro Soares;;97.3;98.16;124.45;124.43;124.5;124.45;124.5;124.4;124.38;124.4;C1.03.06.02.03::sgleison;Coordenação
+302;1.03.06.02.03.02;Manutenção/Operações - PSPA;vago46;Analista de Operações - PSP - vago;;;;;;;;;;;;C1.03.06.02.03.02::vago46;Sem cargo
+303;1.03.06.02.03.03;Almoxarifado - PSPA;vago.psp1;Almoxarife - PSP - vago;;;;;;;;;;;;C1.03.06.02.03.03::vago.psp1;Sem cargo
+304;1.03.06.02.03.03;Almoxarifado - PSPA;OP001ssara;Open Position ssara-Sara Soares;;;;;;;;;;;;C1.03.06.02.03.03::OP001ssara;Sem cargo
+305;1.03.06.09;Coordenação de Ambiência- PSPA VAGO;bfernando;Coordenador de Ambiência  VAGO( PSPA);;86.51;86.93;92.91;113.62;93.74;93.83;114.47;114.54;114.5;88.57;C1.03.06.09::bfernando;Coordenação
+306;1.03.25;Coordenação de Marketing PSPA;fabiola.ramos;Fabiola da Silva Ramos;;38.32;63.27;59.72;58.59;44.76;59.9;61.62;61.22;62.13;62.63;C1.03.25::fabiola.ramos;Coordenação
+307;1.03.06.03.01.01.02;Analista Marketing PSPA;laline;ALINE ARAUJO DE LIMA;;;;;;;;;;;;C1.03.06.03.01.01.02::laline;Analista
+308;1.03.06.03.01.01.02;Analista Marketing PSPA;slarisse;Larisse Silva;;26.0;26.0;26.0;26.0;78.44;79.86;124.07;126.63;123.78;116.61;C1.03.06.03.01.01.02::slarisse;Analista
+309;1.03.06.03.01.01.02;Analista Marketing PSPA;pnatalia;Natalia de Brito Rodrigues Pereira;;;;;;;;;;;;C1.03.06.03.01.01.02::pnatalia;Analista
+310;1.03.06.03.01.01.02;Analista Marketing PSPA;OP001laline;Open Position laline-ALINE ARAUJO DE LIMA;;;;;;;;;;;;C1.03.06.03.01.01.02::OP001laline;Analista
+311;1.03.09;Superintendência - PSPC;csdennison;Dennison de Souza Coelho;;52.1;45.46;44.63;45.31;69.13;42.5;64.91;67.81;66.86;63.16;C1.03.09::csdennison;Superintendência
+312;1.03.09.01;Marketing - Partage ADM;rlilian;Lilian Rodrigues;;;;;;;;;;;;C1.03.09.01::rlilian;Sem cargo
+313;1.03.09.04;Coordenação ADM de Finanças PSPC;rpriscilla;Priscilla Moreno Prado Rodrigues;;34.55;31.23;20.82;21.15;23.31;10.0;21.2;22.65;22.18;20.33;C1.03.09.04::rpriscilla;Coordenação
+314;1.03.09.01.01;Analista Financeiro/Cobrança - PSPC;gpaloma;Paloma dos Reis Gusmão;;44.02;26.0;26.0;26.0;26.0;26.0;26.0;26.0;26.0;0.0;C1.03.09.01.01::gpaloma;Analista
+315;1.03.09.01.02;Assistente Financeiro/Auditoria - PSPC;apspc;Auditoria PSPC;;;;;;;;;;;;C1.03.09.01.02::apspc;Assistente
+316;1.03.09.01.02;Assistente Financeiro/Auditoria - PSPC;mgleicce;Gleicce Moraes;;;;;;;;;;;;C1.03.09.01.02::mgleicce;Assistente
+317;1.03.09.01.02;Assistente Financeiro/Auditoria - PSPC;grafaela;Rafaela Nogueira Gonçalves;;58.65;59.58;90.22;83.54;74.46;45.2;19.81;20.05;20.08;52.66;C1.03.09.01.02::grafaela;Assistente
+318;1.03.09.01.03;Analista Financeiro - PSPC;mlucas;LUCAS DE OLIVEIRA MARTINS;;25.0;12.5;8.33;12.5;15.0;16.67;17.86;43.75;19.44;20.0;C1.03.09.01.03::mlucas;Analista
+319;1.03.10.36;Gerência de Operações - PSPC;pfabio;Fabio Manoel  Pereira;;45.61;45.46;56.97;57.72;61.28;59.51;59.27;58.78;58.39;56.68;C1.03.10.36::pfabio;Gerência
+320;1.03.09.03.01;Coordenação de Seguraça - PSPC;gdiogo;Diogo Garcia;;57.3;62.43;82.14;81.67;80.73;83.09;83.51;83.55;83.15;82.5;C1.03.09.03.01::gdiogo;Coordenação
+321;1.03.10.28;Supervisão de Manutenção - PSPC;rwaldeir;Waldeir Rodrigues ;;80.79;78.86;87.76;87.48;86.19;86.09;91.26;91.67;75.7;76.15;C1.03.10.28::rwaldeir;Supervisão
+322;1.03.10.29;Analista  de Operações - PSPC;crenata;Renata Campos ;;25.45;25.24;25.21;50.22;50.24;50.12;64.69;64.62;65.62;66.09;C1.03.10.29::crenata;Analista
+323;1.03.10.20;Coordenação Manutenção  PSPC VAGO;saldemir;Aldemir Ribeiro de Souza- Analista de Qualidade/ambiência _ PSPC VAGO;;63.17;63.46;63.74;63.73;63.74;59.78;61.76;61.69;62.25;62.27;C1.03.10.20::saldemir;Coordenação
+324;1.03.09.12;Coordenação Marketing PSPC;hluis;Luis Horn;;58.68;53.86;52.57;51.97;61.07;71.87;82.61;92.19;82.23;92.96;C1.03.09.12::hluis;Coordenação
+325;1.03.08;Superintendência - PSMA;feverson;Everson Cardotte Filho;;69.66;76.37;89.27;87.44;82.09;80.79;78.12;89.86;87.08;84.65;C1.03.08::feverson;Superintendência
+326;1.03.08.01;Gerência Financeira - PSMA;vago.philario;(VAGO) Hilário Luis de Medeiros Pina;;40.08;41.94;41.88;40.97;38.3;37.64;36.31;37.18;35.79;34.57;C1.03.08.01::vago.philario;Gerência
+327;1.03.08.01.01;Coordenação de Finanças - PSMA;rrauberth;Rauberth Silva dos Reis;;45.09;22.5;22.5;22.5;87.5;87.75;87.75;87.75;88.0;87.5;C1.03.08.01.01::rrauberth;Coordenação
+328;1.03.08.01.02;Assistente Financeiro - PSMA;llucilane;Lucilane Lima;;45.0;39.9;30.0;37.5;42.0;40.0;40.0;40.91;42.0;42.0;C1.03.08.01.02::llucilane;Assistente
+329;1.03.08.01.03;Analista Financeiro/Adm - PSMA;pernesto;Ernesto Phellipe;;25.0;25.0;25.0;25.0;72.83;47.75;69.58;70.75;70.92;47.25;C1.03.08.01.03::pernesto;Analista
+330;1.03.08.01.04;Analista Financeiro/Auditoria - PSMA;sanaluiza;Ana Luiza Taborda Soares;;96.18;89.1;61.55;60.75;50.88;45.98;49.56;49.12;48.78;51.09;C1.03.08.01.04::sanaluiza;Analista
+331;1.03.08.03;Gerência de Operações PSMA;marcelino.trinidad;Marcelino Trinidad;;55.41;56.18;75.13;71.64;71.08;70.21;69.09;89.91;88.31;82.24;C1.03.08.03::marcelino.trinidad;Gerência
+332;1.03.08.03.02;Coordenação de Manutenção - PSMA;mheliomar;Heliomar Melo   VAGO;;65.62;66.36;86.79;86.71;72.29;90.39;90.58;86.51;86.41;66.16;C1.03.08.03.02::mheliomar;Coordenação
+333;1.03.10.05;Almoxarife - PSMA;aolivia;Olivia Cristiane Silva de Almeida ;;30.0;30.0;60.0;60.0;60.0;60.0;98.74;101.83;101.97;60.0;C1.03.10.05::aolivia;Almoxarife
+334;1.03.10.09;Coordenação de Ambiência- PSMA;jreginaldo;Coordenador de Ambiência - VAGO ( PSMA);;63.87;63.87;85.05;92.55;92.37;59.87;59.87;85.53;93.19;52.06;C1.03.10.09::jreginaldo;Coordenação
+335;1.03.08.03.01;Coordenação de Segurança - PSMA;felinelson;Elinelson da Cruz Ferreira;;91.68;66.68;118.57;118.2;114.85;116.57;111.81;109.33;108.75;81.91;C1.03.08.03.01::felinelson;Coordenação
+336;1.03.10.06;Analista de Operações - PSMA;aolivia;Olivia Cristiane Silva de Almeida ;;;;;;;;;;90.88;;C1.03.10.06::aolivia;Analista
+337;1.03.08.02;Gerência de Marketing -PSMA;smlourdes;Maria de Lourdes Silva;;71.02;85.85;111.04;109.98;95.5;94.56;93.55;91.92;93.06;92.81;C1.03.08.02::smlourdes;Gerência
+338;1.03.08.02.01;Assistente  Marketing PSMA;amantonio;Antonio Madiano;;;;;;;;;;;;C1.03.08.02.01::amantonio;Assistente
+339;1.03.08.02.01;Assistente  Marketing PSMA;fgiovanna;Giovanna Sousa Farias;;58.51;78.75;26.0;83.42;119.14;113.86;116.27;89.22;89.25;89.17;C1.03.08.02.01::fgiovanna;Assistente
+340;1.03.10;Superintendência - S3A;cvanderlei;Vanderlei Correa da Silva;;66.3;53.33;94.5;79.82;68.69;44.55;43.34;32.5;32.5;19.5;C1.03.10::cvanderlei;Superintendência
+341;1.03.10.2;Gerência de Operações - S3A;vfabio;Fabio Ferreira Vanzelli;;44.04;51.01;47.91;48.09;48.11;48.26;46.71;45.2;45.43;45.74;C1.03.10.2::vfabio;Gerência
+342;1.03.10.2;Gerência de Operações - S3A;OP001drosenilton;Open Position drosenilton-Rosenilton Dantas;;;;;;;;;;;;C1.03.10.2::OP001drosenilton;Gerência
+343;1.03.10.2.1;Coordenação de Segurança - S3A;ntito;Tito Martins Neto;;;;;;;;;;;;C1.03.10.2.1::ntito;Coordenação
+344;1.03.10.16;Analista de Operações  - S3A;onathanael;Nathanael Oliveira Laborda ;;67.87;68.72;68.34;68.15;67.77;67.91;67.76;67.64;67.58;67.6;C1.03.10.16::onathanael;Analista
+345;1.03.10.13;Coordenação de Segurança - S3A;maykon.antunes;Maykon De Sezar Antunes;;66.01;67.19;70.05;71.03;70.34;69.81;69.66;69.31;69.71;69.42;C1.03.10.13::maykon.antunes;Coordenação
+346;1.03.10.11;Coordenação de Manutenção VAGO - S3A;balesson;Alesson Cleber Barbosa  _ Coordenador de Manutenção - PS3A VAGO;;90.64;91.26;90.99;90.84;90.56;90.67;91.74;91.5;91.33;91.24;C1.03.10.11::balesson;Coordenação
+347;1.03.10.14;Coordenação de Ambiência - S3A;landre;André Mori Lara -Coordenador de Ambiência- PS3A VAGO;;57.5;57.5;57.5;57.5;57.5;57.5;57.5;57.5;57.5;57.5;C1.03.10.14::landre;Coordenação
+348;1.03.10.15;Analista de Qualidade/ambiência  VAGO - S3A;dpaula;Ana Paula Dantas - Analista de Qualidade/ambiência - PS3A VAGO;;36.05;44.7;50.39;48.17;50.19;51.41;52.28;51.44;51.1;50.92;C1.03.10.15::dpaula;Analista
+349;1.03.10.1;Gerência Financeira - S3A;hana;Ana Maria Hanemann;;61.0;49.92;64.0;55.72;32.11;38.0;38.0;20.0;20.0;20.0;C1.03.10.1::hana;Gerência
+350;1.03.10.1.1;Assistente Auditoria - S3A;slucineia;Lucineia Silva;;96.5;57.5;57.5;56.25;50.0;0.0;0.0;43.22;18.22;18.81;C1.03.10.1.1::slucineia;Assistente
+351;1.03.10.1.3;Analista Financeiro - S3A;arafael;RAFAEL DA CRUZ AMARAL;;76.26;76.98;101.75;99.06;98.71;99.69;99.63;99.27;99.36;99.58;C1.03.10.1.3::arafael;Analista
+352;1.03.10.30;Assistente Financeiro - S3A;rjanaina;Janaina da Silva Resende;;100.0;100.0;100.0;100.0;100.0;100.0;100.0;100.0;100.0;100.0;C1.03.10.30::rjanaina;Assistente
+353;1.04.11;Superintendência - PSAR;dmilena;Milena Damasio ;;83.82;52.0;109.72;99.38;61.12;45.5;80.8;68.98;45.5;45.5;C1.04.11::dmilena;Superintendência
+354;1.03.05.02.03.02;Gerência de Operações  - PSAR;mandre;Andre Gomes Medeiros;;10.84;12.11;31.9;32.08;32.32;35.1;36.8;37.39;37.9;38.32;C1.03.05.02.03.02::mandre;Gerência
+355;1.03.10.37;Coordenação de Segurança - PSAR;aarlei;Arlei Arestides Alves;;34.45;36.15;82.44;82.68;83.14;63.5;63.39;84.0;87.68;66.54;C1.03.10.37::aarlei;Coordenação
+356;1.03.10.39;Coordenação de Operações  PSAR;sgustavo;Gustavo Firmino dos Santos;;46.0;65.07;91.21;96.51;97.27;97.38;97.47;97.35;97.04;96.69;C1.03.10.39::sgustavo;Coordenação
+357;1.02.02.09;Coordenação de Ambiência- PSAR VAGO;bvmaria;Coordenador de Ambiência -VAGO ( PSAR);;59.97;60.15;92.38;86.46;86.68;86.81;87.06;87.37;67.5;67.85;C1.02.02.09::bvmaria;Coordenação
+358;1.04.12;Gerência de Finanças - PSAR;jednaldo;Ednaldo Junior;;74.17;57.18;77.66;54.75;36.05;36.83;73.16;71.09;59.7;59.98;C1.04.12::jednaldo;Gerência
+359;1.04.13;Analista Financeiro - PSAR;sdaniela;Daniela Santos;;49.86;25.0;47.61;25.0;25.0;25.0;25.0;51.74;25.0;24.04;C1.04.13::sdaniela;Analista
+360;1.04.14;Analista de Cobrança - PSAR;scliviane;Cliviane dos Santos ;;58.1;39.73;39.16;38.3;38.43;38.76;39.08;39.31;57.88;58.44;C1.04.14::scliviane;Analista
+361;1.04.12.1;Analista de Auditoria - PSAR;audit.vago;ANALISTA DE AUDITORIA - VAGO - PSAR;;120.25;111.81;111.51;106.33;103.36;96.58;94.6;95.37;92.09;90.39;C1.04.12.1::audit.vago;Analista
+362;1.04.16;Assistente Financeiro PSAR;SKauany;Kauany Celia de Almeida Santos;;30.0;30.0;30.0;30.0;30.0;30.0;30.0;64.5;64.5;64.5;C1.04.16::SKauany;Assistente
+363;1.03.09.05;Coordenação de Marketing - PSAR;ocamila;Camila Oliveira ;;93.47;92.73;117.49;117.13;116.51;116.53;116.87;116.53;116.31;116.16;C1.03.09.05::ocamila;Coordenação
+364;1.03.09.10;Assistente Marketing  PSAR;ganne;Anne Gomes ;;47.23;50.02;52.0;52.0;52.0;91.0;130.0;130.0;130.0;130.0;C1.03.09.10::ganne;Assistente
+365;1.04.19;Superintendência - PSJS;pandre;André Felippe de Agostin Pasini;;88.18;52.0;83.86;62.0;62.0;52.0;52.0;52.0;50.66;48.25;C1.04.19::pandre;Superintendência
+366;1.04.29;Gerência de Finanças - PSJS;kviviane;Viviane Klein ;;108.94;82.88;89.45;73.71;73.73;77.91;80.0;70.0;70.0;70.0;C1.04.29::kviviane;Gerência
+367;1.04.21;Auxiliar Administrativo - PSJS;ekarin;Karin Engelmann;;97.29;78.0;52.0;52.0;52.0;70.71;71.48;73.02;77.64;78.0;C1.04.21::ekarin;Auxiliar
+368;1.04.22;Assistente de Auditoria - PSJS;cvinicius;Vinicius Moreira Cardoso;;80.41;79.4;78.94;101.45;74.88;73.76;70.93;73.42;46.03;45.86;C1.04.22::cvinicius;Assistente
+369;1.04.23;Assistente Administrativo - PSJS;skeila;Keila Silva ;;96.0;96.0;96.0;96.0;30.0;30.0;30.0;66.04;66.18;66.27;C1.04.23::skeila;Assistente
+370;1.04.20;Analista Financeiro - PSJS;aeliezer;Eliezer Ernandes Rocha Alves;;78.05;77.16;52.15;50.67;51.0;51.09;51.55;49.34;49.66;49.93;C1.04.20::aeliezer;Analista
+371;1.03.10.44;Gerência de Operações - PSJS;arenato;Renato Oliveira Amaral;;46.28;26.98;41.18;40.78;58.05;42.74;42.61;41.91;40.49;39.52;C1.03.10.44::arenato;Gerência
+372;1.03.10.40;Analista de Operações - PSJS;umariza;Mariza Uber;;49.75;49.75;74.83;74.88;74.91;49.93;49.94;49.95;49.95;49.96;C1.03.10.40::umariza;Analista
+373;1.03.10.41;Coordenação de Segurança - PSJS;tnuor;Nuor Badr Aglo Talge;;37.71;38.47;58.24;58.12;57.44;57.18;57.12;56.9;56.67;56.72;C1.03.10.41::tnuor;Coordenação
+374;1.03.10.42;Coordenação de Manutenção - PSJS;fjoao;João Batista Rodrigues Ferreira;;58.97;61.87;82.43;85.27;84.48;63.96;60.9;62.15;59.46;58.02;C1.03.10.42::fjoao;Coordenação
+375;1.03.07.36;Assistente de Operações - PSJS;pfernando;Fernando Dias Pereira;;40.0;40.0;60.0;60.0;60.0;20.0;43.44;43.44;43.11;69.11;C1.03.07.36::pfernando;Assistente
+376;1.03.09.15;Coordenação de Marketing PSJS;athiago;Thiago Athaíde;;61.51;82.31;82.7;56.88;55.35;35.36;36.51;54.18;55.24;55.78;C1.03.09.15::athiago;Coordenação
+377;1.03.09.02;Analista Marketing PSJS;bedilene;Edilene Barros;;26.0;26.0;26.0;26.0;56.17;57.4;59.12;59.54;107.48;108.88;C1.03.09.02::bedilene;Analista
+378;1.03.09.02;Analista Marketing PSJS;agisele;Gisele Alvares;;;;;;;;;;;;C1.03.09.02::agisele;Analista
+379;1.03.09.02.01;Marketing - PSPC;rcamilla;Camilla Resende;;;;;;;;;;;;C1.03.09.02.01::rcamilla;Sem cargo
+380;1.04;Diretoria Financeira - Partage ADM;nclayton;Clayton Claudinei Nogueira;;82.27;80.95;112.14;108.82;109.62;99.52;98.48;100.89;100.86;75.82;C1.04::nclayton;Diretoria
+381;1.05;Diretoria Comercial - Partage ADM;cadriano;Adriano dos Santos Capobianco;;81.5;28.76;89.28;39.87;39.03;35.74;35.69;35.73;35.68;35.69;C1.05::cadriano;Diretoria
+382;1.05.01;(VAGO) Superintendência_Regional - Comercial_S|SE (PSBE|PSRG|PSSG|PSJS);vago.nrubens;(VAGO) Rubens do Nascimento Gonçalves Neto;;39.0;12.15;15.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;C1.05.01::vago.nrubens;Superintendência_Regional
+383;1.05.02.02;Comercial PSSG;PSSG;PSSG;;;;;;;;;;;;C1.05.02.02::PSSG;Sem cargo
+384;1.05.02.01.35;Executivo Comercial - Marcelo Pinho - Partage ADM;paugusto;Augusto Pereira;;;;;;;;;;;;C1.05.02.01.35::paugusto;Executivo
+385;1.05.02.01.35;Executivo Comercial - Marcelo Pinho - Partage ADM;pfmarcelo;Marcelo Ferreira Pinho;;;;;;;;;;;;C1.05.02.01.35::pfmarcelo;Executivo
+386;1.05.02.01.36;Executivo Comercial - José Luiz - Partage ADM;fjose;Jose Luiz de Oliveira Fernandes;;;;;;;;;;;;C1.05.02.01.36::fjose;Executivo
+387;1.05.02.03;Comercial PSRG;psrg;PSRG;;;;;;;;;;;;C1.05.02.03::psrg;Sem cargo
+388;1.05.02.01;Comercial PSBE;PSB;Comercial PSB;;;;;;;;;;;;C1.05.02.01::PSB;Sem cargo
+389;1.05.02.01.09.03;Executivo Comercial - Fabiana Diniz - Partage ADM;OP001dfabiana;Open Position dfabiana-Fabiana de Oliveira Diniz;;;;;;;;;;;;C1.05.02.01.09.03::OP001dfabiana;Executivo
+390;1.05.03;Gerência Key Account - Comercial - Partage ADM;anathalia;Key Account - vago;;;;;;;;;;;;C1.05.03::anathalia;Gerência
+391;1.05.03;Gerência Key Account - Comercial - Partage ADM;bpaulo;Paulo Emilio Vieira de Alcântara Bernardes;;;;;;;;;;;;C1.05.03::bpaulo;Gerência
+392;1.01.05;Gerência Nacional de Mall & Mídia - Partage ADM;cprafael;Rafael Pereira da Costa;;101.02;119.74;119.18;84.65;97.28;94.64;95.21;97.71;99.45;99.48;C1.01.05::cprafael;Gerência
+393;1.01.04.01;Comercial - Mídia - PSSG - Thaiane Lopes;athaiane;Thaiane Lopes de Alcântara;;;;;;;;;;;;C1.01.04.01::athaiane;Sem cargo
+394;1.01.03.04;Comercial - M&M - PSPC - Rogério Garcia;bmmonica;Monica Barbosa;;;;;;;;;;;;C1.01.03.04::bmmonica;Sem cargo
+395;1.01.03.04;Comercial - M&M - PSPC - Rogério Garcia;grogerio;Rogério Faquim Garcia;;;;;;;;;;;;C1.01.03.04::grogerio;Sem cargo
+396;1.01.03;Coordenação Regional Mall e Mídia - PSPA/PSMA/PSPC/S3A;nmarcus;Marcus Vinicius Mathias Nery;;53.91;68.65;68.64;68.56;67.43;67.29;80.33;96.78;96.46;96.19;C1.01.03::nmarcus;Coordenação
+397;1.01.03;Coordenação Regional Mall e Mídia - PSPA/PSMA/PSPC/S3A;sbruno;Regional S/SE - vago;;;;;;;;;;;;C1.01.03::sbruno;Coordenação
+398;1.01.02.04;Comercial - M&M - PSP - Joice Gabrielle - Partage ADM;OP002odalila;Open Position odalila-Dalila Oliveira;;;;;;;;;;;;C1.01.02.04::OP002odalila;Sem cargo
+399;1.01.02.04;Comercial - M&M - PSP - Joice Gabrielle - Partage ADM;OP003odalila;Open Position odalila-Dalila Oliveira;;;;;;;;;;;;C1.01.02.04::OP003odalila;Sem cargo
+400;1.01.02.04;Comercial - M&M - PSP - Joice Gabrielle - Partage ADM;msimone;Simone de Lourdes Cardoso de Melo;;;;;;;;;;;;C1.01.02.04::msimone;Sem cargo
+401;1.05.02.01.28;Executivo Comercial - Mall e Mídia - PSMA;selane;Elane Silva;;50.09;88.76;84.62;81.26;44.27;67.07;73.01;74.13;72.14;95.64;C1.05.02.01.28::selane;Executivo
+402;1.05.02.01.45;Executivo Comercial - Mall e Mídia - PSPA;abruce;Bruce Kenneth dos Santos Araujo;;;;;69.28;68.34;69.83;42.75;44.45;43.38;44.2;C1.05.02.01.45::abruce;Executivo
+403;1.05.02.01.48;Executivo Comercial - Mall e Mídia - S3A;nandreia;Andreia Santos Nery;;;;32.5;72.23;72.61;68.73;71.33;71.22;67.24;43.04;C1.05.02.01.48::nandreia;Executivo
+404;1.01.03.06;Executivo Comercial - Mall e Mídia - PSPC;ctaina;Taina Fraga Campos;;125.37;117.89;117.41;112.28;82.71;110.93;113.73;111.85;112.51;112.84;C1.01.03.06::ctaina;Executivo
+405;1.05.02.01.44;Coordenação Regional Mall e Mídia - PSSG/PSRG/PSJS/PSBE;sjoelania;Joelania da Silva Santos;;116.86;122.47;118.43;87.55;86.23;81.95;80.33;81.99;97.45;98.25;C1.05.02.01.44::sjoelania;Coordenação
+406;1.01.03.05;Executivo Comercial - Mall e Mídia - PSRG;rpaline;Aline Pereira Rodrigues;;108.59;102.47;123.69;118.58;100.06;92.85;63.54;90.86;87.96;81.2;C1.01.03.05::rpaline;Executivo
+407;1.01.03.05;Executivo Comercial - Mall e Mídia - PSRG;pmaria;Maria Beatriz Campos de Paiva;;;;;;;;;;;;C1.01.03.05::pmaria;Executivo
+408;1.05.02.01.46;Executivo Comercial - Mall e Mídia - PSJS;sfilipe;Filipe Parica de Souza;;;;;112.81;83.57;82.47;82.74;111.96;111.63;110.63;C1.05.02.01.46::sfilipe;Executivo
+409;1.05.02.01.51;Gerência Comercial - Loja - PSSG;bqueops;Queops Busquet;;;115.0;116.7;107.49;109.44;109.29;107.97;108.19;108.19;108.19;C1.05.02.01.51::bqueops;Gerência
+410;1.01.03.01;Executivo Comercial - Mall e Eventos - PSSG;llucas;Lucas Lira;;108.42;109.84;107.68;75.38;105.23;107.11;108.17;111.24;111.7;112.91;C1.01.03.01::llucas;Executivo
+411;1.01.03.09;Executivo Comercial - Mídia - PSBE;lrenato;Renato Lucio Xavier de Paula Lima;;104.25;54.38;103.41;49.82;47.76;15.0;15.0;15.0;46.55;91.62;C1.01.03.09::lrenato;Executivo
+412;1.01.03.02;Executivo Comercial - Mall e Eventos - PSBE;sricardo;Ricardo Augusto Santana;;91.59;94.72;115.79;105.59;89.6;83.86;81.42;80.47;102.03;102.64;C1.01.03.02::sricardo;Executivo
+413;1.05.02.01.53;Executivo Comercial - Mídia- PSSG;sdouglas;Douglas Freitas da Silva;;;;;;;;;;103.46;108.33;C1.05.02.01.53::sdouglas;Executivo
+414;1.01.02.02;Coordenação Regional Mall e Mídia - PSCG/PNSN/PSMO/PSAR;deudes;Eudes Demétrio;;125.93;109.79;106.91;104.79;101.2;98.29;96.52;96.06;97.61;98.18;C1.01.02.02::deudes;Coordenação
+415;1.01.02.08;Executivo Comercial - Mall e Mídia - PSMO;vdaniele;Daniele Duarte Viana;;129.91;128.69;125.13;123.74;117.03;86.51;114.19;112.75;112.33;110.74;C1.01.02.08::vdaniele;Executivo
+416;1.01.02.05;Executivo Comercial - Mídia - PSCG;djoelly;Joelly Hagnny Barbosa Donato;;35.0;0.0;48.33;53.32;52.74;51.79;53.23;55.6;89.54;92.94;C1.01.02.05::djoelly;Executivo
+417;1.05.01.01.06;Executivo Comercial - Mall e Eventos - PSCG;brenata;Renata Emanuella da Silva Barros;;124.6;121.9;118.09;114.63;108.6;106.95;105.26;84.77;88.44;86.79;C1.05.01.01.06::brenata;Executivo
+418;1.05.02.01.47;Executivo Comercial - Mall e Mídia - PSAR;sclewerton;Clewerton de Souza Silva;;111.03;80.36;68.99;63.87;60.73;32.1;30.28;30.29;71.09;97.37;C1.05.02.01.47::sclewerton;Executivo
+419;1.05.02.01.49;Executivo Comercial - Mídia - PNSN;nclara;Clara Beatriz Nunes Silva;;125.5;80.0;70.92;0.0;0.0;49.57;52.33;50.47;86.95;86.35;C1.05.02.01.49::nclara;Executivo
+420;1.01.02.01.50;Executivo Comercial - Mall e Eventos - PNSN;lgabriel;Gabriel Lemos;;;;;;;;;49.05;47.85;77.49;C1.01.02.01.50::lgabriel;Executivo
+421;1.05.13;Superintendência PSBSB/SP;VAGOpmarcia;(VAGO) Marcia Saad Pierucci;;91.0;10.71;69.95;0.0;0.0;0.0;0.0;0.0;0.0;0.0;C1.05.13::VAGOpmarcia;Superintendência
+422;1.05.11.3;Executivo Comercial - Lojas - PSBSB;beugenia;Maria Eugênia Brasil;;;;;;;;0.0;0.0;9.56;9.56;C1.05.11.3::beugenia;Executivo
+423;1.05.11.3;Executivo Comercial - Lojas - PSBSB;pnathalia;Nathalia Rodrigues Pio;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;C1.05.11.3::pnathalia;Executivo
+424;1.05.11.1;Executivo Comercial - Lojas - PSBSB;slilian;Lilian Soares;;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;9.61;9.61;C1.05.11.1::slilian;Executivo
+425;1.05.11.2;Executivo Comercial - Lojas - PSBSB;cvanessa;Vanessa Costa;;100.71;53.0;40.0;40.0;0.0;0.0;0.0;0.0;0.0;0.0;C1.05.11.2::cvanessa;Executivo
+426;1.05.01.03.02;Executivo Comercial - Geancarlo Pires - Partage ADM;pgeancarlo;Geancarlo Porfirio Pires;;;;;;;;;;;;C1.05.01.03.02::pgeancarlo;Executivo
+427;1.05.01.01;Comercial PSCG;PSCG;PSCG;;;;;;;;;;;;C1.05.01.01::PSCG;Sem cargo
+428;1.05.01.02;Comercial PNSN;PNSN;PNSN;;;;;;;;;;;;C1.05.01.02::PNSN;Sem cargo
+429;1.05.01.03.05;Executivo Comercial - Gabriel Gonçalves - Partage ADM;ggabriel;Gabriel de Lima Martins Gonçalves;;;;;;;;;;;;C1.05.01.03.05::ggabriel;Executivo
+430;1.05.01.04;Comercial PSMO;PSM;PSM;;;;;;;;;;;;C1.05.01.04::PSM;Sem cargo
+431;1.05.14;Coordenação Administrativa e Comercial - Partage ADM;akaue;Kaue Rafael de Freitas Araújo;;26.0;51.0;26.0;26.0;26.0;77.06;76.34;51.0;73.57;73.69;C1.05.14::akaue;Coordenação
+432;1.05.09;Analista Comercial - Partage ADM;msvinicius;Vinicius Silva Morimoto;;37.5;38.0;38.17;38.5;38.7;72.55;71.87;74.0;74.06;54.5;C1.05.09::msvinicius;Analista
+433;1.05.02.01.52;Assistente Comercial - Partage ADM;smonica;Monica Caetano dos Santos;;0.0;45.0;0.0;0.0;0.0;30.64;57.81;42.6;56.14;56.21;C1.05.02.01.52::smonica;Assistente
+434;1.05.14.1;Gerência de Contas - Partage ADM;ghenrique;Henrique de Oliveira Gomes;;;50.0;20.0;20.0;0.0;47.9;47.9;47.9;47.9;47.9;C1.05.14.1::ghenrique;Gerência
+435;1.05.14.1;Gerência de Contas - Partage ADM;sroni;Roni Correia Soares;;;;;;;;;;;;C1.05.14.1::sroni;Gerência
+436;1.05.14.3;Analista Comercial - Partage ADM;mnathalia;Nathalia Mendes Ratte;;;;;;;;;60.0;59.0;29.25;C1.05.14.3::mnathalia;Analista
+437;1.05.16;Gerência Comercial Regional - PSPC- PSMA-PSP-S3A;avictor;Victor Lopes Alves;;0.0;75.61;101.1;86.74;73.89;74.11;44.29;44.29;44.29;44.29;C1.05.16::avictor;Gerência
+438;1.05.01.03;Comercial PSPA;PSP;PSP;;;;;;;;;;;;C1.05.01.03::PSP;Sem cargo
+439;1.05.02.09;Comercial PSMA;PSPM;PSPM;;;;;;;;;;;;C1.05.02.09::PSPM;Sem cargo
+440;1.05.02.08;Comercial PSPC;pspc;PSPC;;;;;;;;;;;;C1.05.02.08::pspc;Sem cargo
+441;1.05.17;Gerência Regional - Comercial N/C.O (PSPA/PSMA/S3A);mlaio;Laio  Feres Manhães;;;;;;;;;110.0;46.71;45.06;C1.05.17::mlaio;Gerência
+442;1.01.11.1;Executivo Comercial - Lojas - S3A;oamanda;Amanda Oliveira;;0.0;0.0;117.5;72.5;65.7;38.5;39.0;70.36;52.0;52.0;C1.01.11.1::oamanda;Executivo
+443;1.05.02.01.41;Executivo Comercial - Lojas - PSPA;cuelquer;Uelquer Rodrigues Ramos Chaves;;115.11;110.5;110.5;100.0;114.06;105.83;105.0;104.38;103.89;103.5;C1.05.02.01.41::cuelquer;Executivo
+444;1.05.02.01.30;Executivo Comercial - Lojas - PSMA;mcamila;Camila Melo;;100.0;110.5;110.5;108.75;100.0;100.0;104.38;103.5;98.75;105.83;C1.05.02.01.30::mcamila;Executivo
+445;1.05.08;Gerência  de Conta Comercial Partage ADM;bjahine;Jahine Itaboray Braga;;62.5;65.71;91.12;31.4;41.61;63.16;63.53;63.53;63.53;63.53;C1.05.08::bjahine;Gerência
+446;1.05.15;Gerência Financeira - Partage_ADM;mlaio;Laio  Feres Manhães;;63.99;13.0;13.0;13.0;10.71;10.48;10.16;10.16;10.16;10.16;C1.05.15::mlaio;Gerência
+447;1.01.02;Gerência Regional - Comercial NE (PNSN/PSMO/PSAR/PSCG);fcicero;Cicero Romão Alves Feitosa;;64.5;90.88;125.5;82.87;64.04;84.57;88.67;77.84;82.55;37.58;C1.01.02::fcicero;Gerência
+448;1.05.02.01.38;Executivo Comercial - Lojas - PSMO;mednir;Ednir Moura;;78.0;38.0;25.0;25.0;25.0;25.0;62.2;72.53;57.54;79.0;C1.05.02.01.38::mednir;Executivo
+449;1.05.01.04.02;Executivo Comercial - Lojas - PSCG;bcarlos;Carlos Alberto de Oliveira Bahia;;0.0;31.75;40.4;28.62;22.27;22.27;22.27;21.11;26.0;26.0;C1.05.01.04.02::bcarlos;Executivo
+450;1.05.02.01.33;Executivo Comercial de Loja - PSCG;VAGOsgmarcia;(VAGO) Marcia Garcia Alverca de Souza;;103.25;116.25;114.61;91.52;90.91;108.32;109.23;102.02;84.02;77.08;C1.05.02.01.33::VAGOsgmarcia;Executivo
+451;1.05.01.02.01;Executivo Comercial - Lojas - PNSN;bthereza;Thereza Bergmann;;0.0;109.5;125.26;123.51;122.29;101.42;110.53;96.71;96.24;96.94;C1.05.01.02.01::bthereza;Executivo
+452;1.05.02.01.42;Executivo Comercial - Lojas - PSAR;pafabio;Fabio Marinho Albuquerque Porto;;0.0;0.0;0.0;29.64;39.0;57.53;58.47;63.4;65.0;65.0;C1.05.02.01.42::pafabio;Executivo
+453;1.05.02.01.43;Executivo Comercial - Lojas - PSAR;cbpaulo;Paulo Victor Bianor Ciriaco;;0.0;26.0;26.0;26.0;26.0;26.0;26.0;26.0;26.0;26.0;C1.05.02.01.43::cbpaulo;Executivo
+454;1.05.10;Gerência de Conta - Comercial  - Partage ADM;bjahine;Jahine Itaboray Braga;;;;;;;;;59.33;56.0;32.23;C1.05.10::bjahine;Gerência
+455;1.05.02.01.50;Gerência de Contas  - Partage ADM;bnbruno;Bruno Jose Nogueira Benedetti;;;;;0.0;0.0;0.0;18.94;26.0;26.0;26.0;C1.05.02.01.50::bnbruno;Gerência
+456;1.05.14.2;Gerência de Contas - Partage ADM;ghenrique;Henrique de Oliveira Gomes;;;;;;;;;65.0;54.81;0.0;C1.05.14.2::ghenrique;Gerência
+457;1.05.18;Superintendência_Regional - Comercial_S|SE (PSBE|PSPC|PSRG|PSSG|PSJS);avictor;Victor Lopes Alves;;;;;;;;;84.71;74.0;33.74;C1.05.18::avictor;Superintendência_Regional
+458;1.05.02.01.09.04;Executivo Comercial de Loja - PSBE;agustavo;Gustavo Armando Antunes;;74.0;74.84;10.0;9.33;9.33;10.0;10.0;48.13;43.88;40.48;C1.05.02.01.09.04::agustavo;Executivo
+459;1.05.02.01.09.07;Executivo Comercial - Lojas - PSJS;wthais;Thais Alves Wolfenberg;;;;;;;;0.0;9.6;9.6;9.6;C1.05.02.01.09.07::wthais;Executivo
+460;1.05.02.01.09.05;Executivo Comercial - Lojas - PSBE;stais;Tais Sena;;0.0;0.0;0.0;0.0;0.0;0.0;13.0;31.75;25.23;24.0;C1.05.02.01.09.05::stais;Executivo
+461;1.05.02.01.14;Executivo Comercial - Lojas - PSRG;sliliane;Liliane Fachi da Silva;;0.0;0.0;0.0;0.0;0.0;0.0;13.0;38.0;38.0;13.0;C1.05.02.01.14::sliliane;Executivo
+462;1.05.02.01.14;Executivo Comercial - Lojas - PSRG;vago107;Liliane Silva;;;;;;;;;;;;C1.05.02.01.14::vago107;Executivo
+463;1.05.02.01.09.06;Executivo Comercial - Lojas - PSRG;glidia;LÍDIA GUIMARÃES MASCARENHAS;;;;;;;;92.0;52.0;52.0;52.0;C1.05.02.01.09.06::glidia;Executivo
+464;1.05.02.01.37;Executivo Comercial - Lojas - PSSG;shcarlos;Carlos Henrique Santos;;0.0;11.2;11.2;11.2;13.0;13.0;52.0;52.0;52.0;52.0;C1.05.02.01.37::shcarlos;Executivo
+465;1.05.02.01.02.04;Executivo Comercial - Lojas - PSPC;deverton;Everton Dutra;;0.0;22.47;90.73;11.2;106.93;87.55;84.18;81.99;84.34;51.5;C1.05.02.01.02.04::deverton;Executivo
+466;1.05.02.01.54;Executivo Comercial - Loja PSSG;bqueops;Queops Busquet;;;;;;;;;;;0.0;C1.05.02.01.54::bqueops;Executivo
+467;1.01.02.03.04;Superintendência Nacional de Sistemas Gerenciais e Qualidade - Empreendimentos;cjanete;Janete Santos Cacalis;;;;;;52.0;52.0;82.0;101.5;121.0;121.0;C1.01.02.03.04::cjanete;Superintendência
+468;1.01.02.03.05;Sistemas Gerenciais e Qualidade - Partage ADM;robo;Fake Single User;;;;;;;;;;;;C1.01.02.03.05::robo;Sem cargo
+469;1.01.02.03.05;Sistemas Gerenciais e Qualidade - Partage ADM;fake;José Fake da Silva;;;;;;;;;;;;C1.01.02.03.05::fake;Sem cargo
+470;1.01.02.03.05;Sistemas Gerenciais e Qualidade - Partage ADM;jmarcio;Marcio Batista Claudino Junior Souza;;;;;;;;;;;;C1.01.02.03.05::jmarcio;Sem cargo
+471;2;Empreendimentos;andrei.santini;Andrei Santini;;;;;;;;;;;;C2::andrei.santini;Sem cargo
+472;2.2;Gerência da Engenharia - Empreendimentos;bamanda;Amanda Barros;;89.17;89.17;89.17;89.17;89.17;89.17;66.67;66.67;66.67;66.67;C2.2::bamanda;Gerência
+473;2.2.1;Assistente Engenharia/Planejamento - Empreendimentos;sbrenda;Brenda Gomes dos Santos;;31.22;31.22;31.22;31.22;91.22;91.22;82.22;82.22;82.22;82.22;C2.2.1::sbrenda;Assistente
+474;2.2.2;Engenheiro Engenharia/Obras - Empreendimentos;rgabriel;Gabriel Marques Reis;;31.22;31.22;31.22;31.22;91.22;91.22;82.22;82.22;82.22;82.22;C2.2.2::rgabriel;Engenheiro
+475;2.8; Gerência de Compras de Engenharia - Empreendimentos;arenata;Renata Arruda;;89.17;89.17;89.17;89.17;89.17;89.17;66.67;66.67;66.67;66.67;C2.8::arenata;Gerência
+476;2.4;Diretoria Jurídico - Empreendimentos;sana;Ana Carla Lorenzon Silveira;;110.49;115.02;113.59;113.63;113.03;112.77;112.41;112.67;112.39;112.59;C2.4::sana;Diretoria
+477;2.4.1;Auxiliar Administrativo Jurídico - Empreendimentos;slaiane;Laiane Rocha  Silva;;110.49;115.02;113.59;113.63;113.03;112.77;112.41;112.67;112.39;112.59;C2.4.1::slaiane;Auxiliar
+478;2.4.2;Especialista Jurídico - Empreendimentos;klarissa;Larissa Pinheiro Kaneko;;110.49;115.02;113.59;113.63;113.03;112.77;112.41;112.67;112.39;112.59;C2.4.2::klarissa;Especialista
+479;2.4.3;Advogado Junior - Empreendimentos;leilane.silva;Leilane Jessica Jeronimo da Silva;;110.49;115.02;113.59;113.63;113.03;112.77;112.41;112.67;112.39;112.59;C2.4.3::leilane.silva;Advogado
+480;2.4.4;Advogado Junior - Empreendimentos;cleber.santos;Cleber de Paula Barbosa dos Santos;;110.49;115.02;113.59;113.63;113.03;112.77;112.41;112.67;112.39;112.59;C2.4.4::cleber.santos;Advogado
+481;2.1;Diretoria Financeira - Empreendimentos;nclayton;Clayton Claudinei Nogueira;;75.16;76.4;103.54;101.53;101.44;101.25;102.52;103.59;101.82;74.79;C2.1::nclayton;Diretoria
+482;2.1.5;Gerência Centro de Serviços Compartilhados (CSC) - Empreendimentos;pacristiano;Cristiano Albertini Penteado;;85.23;88.27;88.49;88.79;88.73;72.38;85.96;84.47;74.57;74.84;C2.1.5::pacristiano;Gerência
+483;2.1.5.2; Coordenação CSC - Contas a Pagar - Empreendimentos;sjorge;Jorge Luiz Silva dos Santos;;85.23;88.27;88.49;88.79;88.73;72.38;85.96;84.47;74.57;74.84;C2.1.5.2::sjorge;Coordenação
+484;2.1.5.1;Coordenação CSC - Contratos e Faturamento - Empreendimentos;mdaniele;Daniele Pelvine Grangeiro Mora;;85.23;88.27;88.49;88.79;88.73;72.38;85.96;84.47;74.57;74.84;C2.1.5.1::mdaniele;Coordenação
+485;2.1.1;Gerência Controladoria - Empreendimentos;mleandro;Leandro Costa Martins;;50.22;50.89;65.95;65.87;86.1;100.73;100.96;101.0;100.58;69.91;C2.1.1::mleandro;Gerência
+486;2.1.1.1;Coordenação Fiscal - Empreendimentos;swesles;Wesles Dias da Silva;;100.0;100.0;100.0;100.0;100.0;70.0;100.0;100.0;100.0;88.8;C2.1.1.1::swesles;Coordenação
+487;2.1.1.2;Coordenação  Contabilidade - Empreendimentos;onayara;Nayara Miranda de Oliveira;;30.0;30.0;60.0;60.0;100.0;100.0;100.0;100.0;100.0;60.0;C2.1.1.2::onayara;Coordenação
+488;2.1.1.3; Coordenação Controles Internos - Empreendimentos;rfabiana;Fabiana Ribeiro;;25.0;25.0;60.0;60.0;100.0;100.0;100.0;100.0;75.0;75.0;C2.1.1.3::rfabiana;Coordenação
+489;2.1.1.4;Coordenação FP&A - Empreendimentos;nnilo;Nilo Costa Neto;;65.0;65.0;65.0;65.0;65.0;100.0;100.0;100.0;100.0;100.0;C2.1.1.4::nnilo;Coordenação
+490;2.1.1.5;Coordenação Financeiro- Empreendimentos;omike;Mike Gabriel Santos de Oliveira;;20.0;20.0;20.0;53.33;60.0;60.0;60.0;60.0;60.0;60.0;C2.1.1.5::omike;Coordenação
+491;2.1.2;Gerência Projetos e Tecnologia da Informação - Empreendimentos;hsandra;Sandra Stiubiener Himmelstein;;45.91;58.38;65.61;67.96;87.29;86.25;88.14;85.0;83.54;65.83;C2.1.2::hsandra;Gerência
+492;2.1.2.1;Gerência Business Intelligence (BI) - Empreendimentos;ijoaopaulo;João Paulo Yoshio Imamura;;0.0;35.53;43.53;43.53;43.53;43.53;43.53;43.53;43.53;41.88;C2.1.2.1::ijoaopaulo;Gerência
+493;2.1.2.2;Analista de Business Intelligence (BI) - Empreendimentos;belizandro;Elizandro Barbat;;0.0;23.53;23.53;23.53;23.53;23.53;23.53;23.53;23.53;21.88;C2.1.2.2::belizandro;Analista
+494;2.1.2.3;Coordenação de Suporte em TI e Infraestrutura - Empreendimentos;nandre;Andre Gomes Nogueira;;76.17;76.64;75.87;78.23;102.33;101.28;103.4;100.22;98.25;75.82;C2.1.2.3::nandre;Coordenação
+495;2.1.3;Gerência Tesouraria - Empreendimentos;jluiz;Luiz Antonio Salles de Morais Junior;;56.9;68.07;105.11;100.98;99.87;99.51;100.53;101.6;100.87;100.9;C2.1.3::jluiz;Gerência
+496;2.1.3.3;Analista Contas a Pagar - Financeiro - Empreendimentos;srobson;Robson Santos da Silva;;;;;;;;;;;;C2.1.3.3::srobson;Analista
+497;2.1.3.4;Coordenação de Tesouraria - Empreendimentos;vago.rsoraia;(VAGO) SORAIA MANIRA SLEIMAN RANGEL;;60.0;60.06;87.64;84.51;83.42;83.57;99.41;99.97;99.07;98.85;C2.1.3.4::vago.rsoraia;Coordenação
+498;2.7;Gerência de Compras - Holding - Partage ADM;jgustavo;Gustavo Branco Jorge;;109.33;112.5;113.89;118.92;116.97;118.61;118.55;93.46;93.35;108.28;C2.7::jgustavo;Gerência
+499;2.5;Diretoria de Propiedades - Empreendimentos;brenato;Renato Rodney Ranielli Carlini Bello;;107.67;103.24;101.92;101.04;86.22;86.51;99.13;100.14;100.64;32.7;C2.5::brenato;Diretoria
+500;2.3;Coordenação de Ambiência - Empreendimentos;vago.mdivie;(VAGO) Diviê Marchetto;;109.48;102.01;104.09;102.76;72.86;73.01;100.33;102.17;104.3;96.61;C2.3::vago.mdivie;Coordenação
+501;2.3;Coordenação de Ambiência - Empreendimentos;dbruna;Bruna Dejavite;;;;;;;;;;;;C2.3::dbruna;Coordenação
+502;2.3;Coordenação de Ambiência - Empreendimentos;kcinthia;Cinthia Mariko;;;;;;;;;;;;C2.3::kcinthia;Coordenação
+503;2.6;Arquiteto - Arquitetura/Shoppings - Empreendimentos;dtauane;Tauane Lima Damasceno;;113.02;108.46;109.86;108.6;88.78;88.97;107.01;108.15;109.72;101.12;C2.6::dtauane;Arquiteto
+504;2.1.4;Diretoria de Recursos Humanos - Empreendimentos;vago.amarcia;(VAGO) Marcia Cristine Peres Barros Almstrom;;32.5;32.5;32.5;32.5;32.5;56.12;55.85;63.2;65.0;65.0;C2.1.4::vago.amarcia;Diretoria
+505;2.1.4;Diretoria de Recursos Humanos - Empreendimentos;bcibelly;Cibelly Beatriz Ferreira Bento;;;;;;;;;;;;C2.1.4::bcibelly;Diretoria
+506;2.1.4;Diretoria de Recursos Humanos - Empreendimentos;OP001btatiana;Open Position btatiana-Tatiana Maria Brito da Costa;;;;;;;;;;;;C2.1.4::OP001btatiana;Diretoria
+507;2.1.4;Diretoria de Recursos Humanos - Empreendimentos;svitoria;Vitória Roberta Bezerra de Souza;;;;;;;;;;;;C2.1.4::svitoria;Diretoria
+508;1.03.02.01.01.04;Gerência de Finanças -PSBE;llaise;Laíse de Oliveira Magalhães Lopes;;;;;;;;;;;;C1.03.02.01.01.04::llaise;Gerência
+509;1.03.03.01.01.04;Coordenação Regional de RH - N/NE - PNSN;crogeria;Rogéria Silva do Nascimento Carlos;;;;;;;;;;;;C1.03.03.01.01.04::crogeria;Coordenação

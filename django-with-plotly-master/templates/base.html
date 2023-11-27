@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+
+    <title>{% block title %}{% endblock %}</title>
+
+    <!-- Plotly js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a,.titulo {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+input[type="checkbox"],input[type="radio"] {
+  width: 20px; /* especifica a largura */
+  height: 20px; /* especifica a altura */
+  background-color: #eee; /* cor de fundo */
+}
+
+input[type="checkbox"]:checked, {
+  background-color: #111; /* cor de fundo quando marcado */
+}
+
+input,.Limpar,.Gerar {
+  background-color: #000000; /* Cor de fundo do botão */
+  border: none; /* Remove bordas */
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Remove sublinhado */
+  display: inline-block; /* Exibe como bloco inline */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem */
+  cursor: pointer; /* Muda o cursor para um ponteiro quando você passa o mouse sobre */
+}
+
+input:hover,.Limpar:hover,.Gerar:hover {
+  background-color: #555555; /* Muda a cor de fundo quando você passa o mouse sobre */
+}
+
+.Gerar{
+background-color: green; /* Cor de fundo do botão */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #111; /* Cor do texto da tabela */
+  background-color: white; /* Cor de fundo da tabela */
+}
+
+table, th, td {
+  border: 1px solid #818181; /* Cor da borda da tabela */
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f1f1f1; /* Cor de fundo do cabeçalho da tabela */
+  color: #555555; /* Cor do texto do cabeçalho da tabela */
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+<!---
+    <a href="{% url 'bar-chart' %}">Bar Chart</a>
+    <a href="{% url 'scatter-chart' %}">Scatter Chart</a>
+    <a href="{% url 'pie-chart' %}">Pie Chart</a>
+    <a href="{% url 'bubble-chart' %}">Bubble Chart</a>
+--->
+<button onclick="Gerar()" class="Gerar">Gerar Apresentação</button>
+<a href="{% url 'bar-chart' %}#sessao">Início</a>
+<a href="{% url 'bar-chart' %}#chart0">{{titulo0}}</a>
+<a href="{% url 'bar-chart' %}#chart1">{{titulo1}}</a>
+<a href="{% url 'bar-chart' %}#chart2">{{titulo2}}</a>
+<br>
+<div class="titulo">Apresentações Disponíveis:</div>
+{% for c in Disponiveis %}
+<a href="{% url 'GerarApresentacao' c %}">{{c}}</a>
+{% endfor %}
+</div>
+
+<div class="main">
+    <h2>{{ title }}</h2>
+    {% block content %}
+
+
+    {% endblock %}
+</div>
+
+</body>
+</html>

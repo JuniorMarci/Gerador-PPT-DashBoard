@@ -1,0 +1,153 @@
+﻿{% extends 'base.html' %}
+
+{% load static %}
+
+
+
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+
+<script src="{% static 'html2canvas.min.js' %}">
+</script>
+
+
+
+<form action="/bar-chart" method="post">
+  {% csrf_token %}
+  <input type="radio" id="sessao" name="sessao" value={{sessao}} checked>  
+  <label for={{sessao}}>Sessão: {{sessao}}</label>
+  <br>
+  
+  {% for c in Meses %}
+
+  <input type="radio" id={{ c }} name="mes" value={{ c }} {% if c in MesSel %} checked {% endif %}>
+  <label for={{ c }}> {{ c }}</label>
+  {% endfor %}
+  <br>
+  {% for c in Depart %}
+  <input type="checkbox" id={{ c }} name="departamento" value={{ c }} {% if c in DepartSel %} checked {% endif %}>
+  <label for={{ c }}> {{ c }}</label>
+  {% endfor %}
+  <br>
+  {% for c in sh %}
+  <input type="checkbox" id={{ c }} name="shopping" value={{ c }} {% if c in ShSel %} checked {% endif %}>
+  <label for={{ c }}> {{ c }}</label>
+  {% endfor %}
+  <br>
+  <a href="{% url 'bar-chart' %}" class="Limpar">Limpar Filtros</a> <input type="submit" value="Filtrar">
+
+
+
+
+<br>
+
+{% for c in Titulo %}
+ <input type="radio" id={{ c }} name="titulo0" value={{ c }} {% if c == titulo0 %} checked {% endif %}>
+ <label for={{ c }}> {{ c }}</label>
+{% endfor %}
+<input type="submit" value="Confirmar">
+<br>
+<div id="chart0"></div>
+<br>
+<button onclick="saveAsImage('#table0', '{% url 'upload_image' sessao '#table0' %}')" class="Limpar">Salvar tabela como imagem</button>
+<div id="table0"> {{ G0.table|safe }} </div>
+<br>
+{% for c in Titulo %}
+ <input type="radio" id={{ c }} name="titulo1" value={{ c }} {% if c == titulo1 %} checked {% endif %}>
+ <label for={{ c }}> {{ c }}</label>
+{% endfor %}
+<input type="submit" value="Confirmar">
+<br>
+<div id="chart1"></div>
+<button onclick="saveAsImage('#table1', '{% url 'upload_image' sessao '#table1' %}')" class="Limpar">Salvar tabela como imagem</button>
+<div id="table1"> {{ G1.table|safe }} </div>
+<br>
+{% for c in Titulo %}
+ <input type="radio" id={{ c }} name="titulo2" value={{ c }} {% if c == titulo2 %} checked {% endif %}>
+ <label for={{ c }}> {{ c }}</label>
+{% endfor %}
+<input type="submit" value="Confirmar">
+<br>
+<div id="chart2"></div>
+<button onclick="saveAsImage('#table2', '{% url 'upload_image' sessao '#table2' %}')" class="Limpar">Salvar tabela como imagem</button>
+<div id="table2"> {{ G2.table|safe }} </div>
+
+</form>
+
+<script>
+
+function Gerar(){
+
+chamarGerador('#chart0', '/upload/'+{{sessao}}+'/%23chart0')
+chamarGerador('#table0', '/upload/'+{{sessao}}+'/%23table0')
+chamarGerador('#chart1', '/upload/'+{{sessao}}+'/%23chart1')
+chamarGerador('#table1', '/upload/'+{{sessao}}+'/%23table1')
+chamarGerador('#chart2', '/upload/'+{{sessao}}+'/%23chart2')
+chamarGerador('#table2', '/upload/'+{{sessao}}+'/%23table2')
+alert('Gerador iniciado!');
+
+}
+
+function chamarGerador(x, url) {
+
+var FIM = 0;
+
+  html2canvas(document.querySelector(x), {scale: 1}).then(canvas => {
+    canvas.toBlob(function(blob) {
+      let formData = new FormData();
+      formData.append('file', blob, 'tabela.png');
+
+      fetch(url, {
+        method: 'POST',
+        body: formData
+      }).then(response => {
+        if (response.ok) {
+          console.log('Imagem enviada com sucesso para o servidor');
+		  var FIM = 1;
+		  //alert('Imagem enviada com sucesso para o servidor');
+        } else {
+          console.error('Erro ao enviar imagem para o servidor');
+		  alert('Erro ao enviar imagem para o servidor');
+		  
+        }
+      }).catch(error => {
+        console.error('Erro ao enviar imagem para o servidor:', error);
+		alert('Erro ao enviar imagem para o servidor:', error);
+      });
+    }, 'image/png');
+  });
+  
+}
+
+
+
+
+	  function saveAsImage(x) {
+  html2canvas(document.querySelector(x), {scale: 1}).then(canvas => {
+    let link = document.createElement('a');
+    link.href = canvas.toDataURL("image/png");
+    link.download = 'tabela.png';
+    link.click();
+  });
+}
+	  
+      trace = {{ G0.trace|safe  }}
+      layout = {{ G0.layout | safe }}
+      var data = [trace];
+      Plotly.newPlot('chart0', data, layout, {showSendToCloud: true, responsive: true});
+	  
+	  trace = {{ G1.trace|safe  }}
+      layout = {{ G1.layout | safe }}
+      var data = [trace];
+      Plotly.newPlot('chart1', data, layout, {showSendToCloud: true, responsive: true});
+	  
+	  trace = {{ G2.trace|safe  }}
+      layout = {{ G2.layout | safe }}
+      var data = [trace];
+      Plotly.newPlot('chart2', data, layout, {showSendToCloud: true, responsive: true});
+
+</script>
+
+
+{% endblock %}
+
