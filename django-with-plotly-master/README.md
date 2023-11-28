@@ -14,4 +14,3 @@ https://cdn.plot.ly/plotly-1.2.0.min.js
 ## Additional Info
 <p>Author: Aris David</p>
 <p>Site: https://www.quantmill.io/</p>
-<p>Adaptado por: Junior, o Marcio</p>

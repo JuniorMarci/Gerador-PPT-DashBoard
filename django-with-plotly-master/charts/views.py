@@ -22,6 +22,8 @@ def color_cells(val):
 def transformar(item):
 	try: item = item.replace(',','.')
 	except: 1==1
+	item = "{:.2f}".format(float(item))
+	#print(float(item))
 	return float(item)
 	
 
@@ -41,8 +43,10 @@ def GerarHTabela(df,x,y):
 	'Previsto Acumulado',
 	'Realizado Acumulado',
 	'Nota Acumulado']]
+	
 	df = df.style.map(color_cells, subset=['Nota Pontual','Nota Acumulado'])
 	html_table = df.to_html(index=False)
+	#print(html_table)
 	
 	return html_table
 	
@@ -50,7 +54,7 @@ def FormatarTabela(gtab,x,y,MesSel):
 	#gtab[x] = 
 	#gtab['mêss'] = [str(i) for i in gtab['mês']] # Mês string para concatenar com 'x'
 	gtab[x+"m"] = gtab[x]+"::"+[str(i) for i in gtab['mês']]
-	mtab = gtab.groupby(x+'m').mean(y).reset_index().sort_values(y,ascending=False)
+	mtab = gtab.groupby(x+'m').mean(y).round(2).reset_index().sort_values(y,ascending=False)
 
 	gtab = gtab[gtab['mês'].isin(MesSel)] if len(MesSel) > 0 else gtab
 
@@ -122,6 +126,9 @@ def bar_chart_view(request):
     MesSel = [9]
     DepartSel = []
     ShSel = []
+    LogSel0 = []
+    LogSel1 = []
+    LogSel2 = []
 	
     # VARIÁVEIS DE CONTEÚDO
     titulo0 = "Departamento"
@@ -146,12 +153,15 @@ def bar_chart_view(request):
             titulo0 = request.POST.getlist('titulo0')[0]
             titulo1 = request.POST.getlist('titulo1')[0]
             titulo2 = request.POST.getlist('titulo2')[0]
+            LogSel0 = request.POST.getlist('login')
 
 	# TRATANDO A TABELA PRINCIPAL
     FilDepart = [int(i) if i.isdigit() else i for i in FilDepart]
     tab = os.path.join(settings.BASE_DIR, 'static', 'Metas.csv')
     tab = pd.read_csv(tab,sep=';')
     tab['Departamento'] = [c.split('_')[0] for c in tab['Código da Meta']]
+	
+    # LISTA DE FILTROS FIXA
     Depart = sorted(list(set(tab['Departamento'])))#[c.split('_')[0] for c in tab['Código da Meta']])
     Meses = set([int(i) for i in tab['mês'].values.tolist()])
     #tab = tab[tab['mês']==9]
@@ -169,23 +179,26 @@ def bar_chart_view(request):
     tab = tab[tab['Departamento'].isin(DepartSel)] if len(DepartSel) > 0 else tab
     #tab = tab[tab['mês'].isin(MesSel)] if len(MesSel) > 0 else tab
     tab = tab[tab['Shopping'].isin(ShSel)] if len(ShSel) > 0 else tab
-    
-    # TRATANDO OS NÚMEROS
-    tab['Nota Acumulado'] = [transformar(i) for i in tab['Nota Acumulado'].values.tolist()]
-    tab = tab[tab['Nota Acumulado']!=-1]
-    tab = tab[~tab['Nota Acumulado'].isna()]
-    tab['Nota Pontual'] = [transformar(i) for i in tab['Nota Pontual'].values.tolist()]
-    tab = tab[tab['Nota Pontual']!=-1]
-    tab = tab[~tab['Nota Pontual'].isna()]
-    tab['Realizado Pontual'] = [transformar(i) for i in tab['Realizado Pontual'].values.tolist()]
-    tab['Realizado Acumulado'] = [transformar(i) for i in tab['Realizado Acumulado'].values.tolist()]
-    tab['Previsto Pontual'] = [transformar(i) for i in tab['Previsto Pontual'].values.tolist()]
-    tab['Previsto Acumulado'] = [transformar(i) for i in tab['Previsto Acumulado'].values.tolist()]
-
-    
-
+    tab = tab[tab['Login'].isin(LogSel0)] if len(LogSel0) > 0 else tab
 	
+    LogDisp = set(tab['Login'])
 	
+    def TransNum(tab):
+	    # TRATANDO OS NÚMEROS
+	    tab['Nota Acumulado'] = [transformar(i) for i in tab['Nota Acumulado'].values.tolist()]
+	    tab = tab[tab['Nota Acumulado']!=-1]
+	    tab = tab[~tab['Nota Acumulado'].isna()]
+	    tab['Nota Pontual'] = [transformar(i) for i in tab['Nota Pontual'].values.tolist()]
+	    tab = tab[tab['Nota Pontual']!=-1]
+	    tab = tab[~tab['Nota Pontual'].isna()]
+	    tab['Realizado Pontual'] = [transformar(i) for i in tab['Realizado Pontual'].values.tolist()]
+	    tab['Realizado Acumulado'] = [transformar(i) for i in tab['Realizado Acumulado'].values.tolist()]
+	    tab['Previsto Pontual'] = [transformar(i) for i in tab['Previsto Pontual'].values.tolist()]
+	    tab['Previsto Acumulado'] = [transformar(i) for i in tab['Previsto Acumulado'].values.tolist()]
+	    return tab
+
+    tab = TransNum(tab)
+		
     x0,y0,t0 = FormatarTabela(tab,titulo0,conteudo0,MesSel)
     x1,y1,t1 = FormatarTabela(tab,titulo1,conteudo1,MesSel)
     x2,y2,t2 = FormatarTabela(tab,titulo2,conteudo2,MesSel)
@@ -204,10 +217,14 @@ def bar_chart_view(request):
 				"FilDepart":FilDepart,
 				"Depart":Depart, # Lista da tabela
 				"Meses":Meses, # Lista da tabela
+				"LogDisp":LogDisp, # Lista da tabela (pós filtragem)
 				"Titulo":['Login','Código_da_Meta','Objetivo','Departamento','Shopping'],
 				"MesSel":MesSel, # Origem: HTML
 				"DepartSel":DepartSel, # Origem: HTML
 				"ShSel":ShSel, # Origem: HTML
+				"LogSel0":LogSel0,# Origem: HTML
+				"LogSel1":LogSel1,# Origem: HTML
+				"LogSel2":LogSel2,# Origem: HTML
 				"sessao":sessao, # Origem: HTML
 				"sh":sh,
 				'G0':G0,

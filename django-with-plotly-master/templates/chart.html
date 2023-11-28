@@ -16,30 +16,55 @@
   {% csrf_token %}
   <input type="radio" id="sessao" name="sessao" value={{sessao}} checked>  
   <label for={{sessao}}>Sessão: {{sessao}}</label>
-  <br>
+  <br><br>
   
+  <details>
+  <summary>Alterar Mês</summary>
   {% for c in Meses %}
 
   <input type="radio" id={{ c }} name="mes" value={{ c }} {% if c in MesSel %} checked {% endif %}>
   <label for={{ c }}> {{ c }}</label>
   {% endfor %}
+  </details>
+  
   <br>
+  
+  <details>
+  <summary>Alterar Departamento</summary>
   {% for c in Depart %}
   <input type="checkbox" id={{ c }} name="departamento" value={{ c }} {% if c in DepartSel %} checked {% endif %}>
   <label for={{ c }}> {{ c }}</label>
   {% endfor %}
+  </details>
+  
   <br>
+  
+  <details>
+  <summary>Alterar Unidade</summary>
   {% for c in sh %}
   <input type="checkbox" id={{ c }} name="shopping" value={{ c }} {% if c in ShSel %} checked {% endif %}>
   <label for={{ c }}> {{ c }}</label>
   {% endfor %}
+  </details>
+  
+  <br>
+  
+  <details>
+  <summary>Alterar Usuários</summary>
+  {% for c in LogDisp %}
+  <input type="checkbox" id={{ c }} name="login" value={{ c }} {% if c in LogSel0 %} checked {% endif %}>
+  <label for={{ c }}> {{ c }}</label>
+  {% endfor %}
+  </details>
+  
   <br>
   <a href="{% url 'bar-chart' %}" class="Limpar">Limpar Filtros</a> <input type="submit" value="Filtrar">
 
 
-
-
+<br><br>
+<hr>
 <br>
+
 
 {% for c in Titulo %}
  <input type="radio" id={{ c }} name="titulo0" value={{ c }} {% if c == titulo0 %} checked {% endif %}>
@@ -51,7 +76,11 @@
 <br>
 <button onclick="saveAsImage('#table0', '{% url 'upload_image' sessao '#table0' %}')" class="Limpar">Salvar tabela como imagem</button>
 <div id="table0"> {{ G0.table|safe }} </div>
+
 <br>
+<hr>
+<br>
+
 {% for c in Titulo %}
  <input type="radio" id={{ c }} name="titulo1" value={{ c }} {% if c == titulo1 %} checked {% endif %}>
  <label for={{ c }}> {{ c }}</label>
@@ -61,7 +90,11 @@
 <div id="chart1"></div>
 <button onclick="saveAsImage('#table1', '{% url 'upload_image' sessao '#table1' %}')" class="Limpar">Salvar tabela como imagem</button>
 <div id="table1"> {{ G1.table|safe }} </div>
+
 <br>
+<hr>
+<br>
+
 {% for c in Titulo %}
  <input type="radio" id={{ c }} name="titulo2" value={{ c }} {% if c == titulo2 %} checked {% endif %}>
  <label for={{ c }}> {{ c }}</label>
@@ -75,6 +108,11 @@
 </form>
 
 <script>
+
+document.querySelectorAll('td').forEach(td => {
+    const number = parseFloat(td.textContent);
+    if (!isNaN(number)) {td.textContent = number.toFixed(2);}
+});
 
 function Gerar(){
 
